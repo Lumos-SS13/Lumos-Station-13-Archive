@@ -235,6 +235,8 @@ GLOBAL_LIST_EMPTY(external_rsc_urls)
 
 	var/full_version = "[byond_version].[byond_build ? byond_build : "xxx"]"
 	log_access("Login: [key_name(src)] from [address ? address : "localhost"]-[computer_id] || BYOND v[full_version]")
+	
+	message_admins("[key_name_admin(src)] has connected.") //lumos thingy
 
 	var/alert_mob_dupe_login = FALSE
 	if(CONFIG_GET(flag/log_access))
@@ -429,6 +431,9 @@ GLOBAL_LIST_EMPTY(external_rsc_urls)
 	if(credits)
 		QDEL_LIST(credits)
 	log_access("Logout: [key_name(src)]")
+
+	message_admins("[key_name_admin(src)] has logged out.") //lumos thingy
+
 	if(holder)
 		adminGreet(1)
 		holder.owner = null
