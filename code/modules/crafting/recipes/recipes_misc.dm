@@ -277,7 +277,7 @@
 		        /obj/item/stack/sheet/glass = 1,
 				/obj/item/stock_parts/micro_laser = 1,
 				/obj/item/stack/cable_coil = 2,
-				/obj/item/stack/ore/diamond = 1)
+				/obj/item/stack/sheet/mineral/diamond)
 	tools = list(TOOL_SCREWDRIVER)
 	category = CAT_MISC
 
