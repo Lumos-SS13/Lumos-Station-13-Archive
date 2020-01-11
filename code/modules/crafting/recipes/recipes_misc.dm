@@ -269,6 +269,17 @@
 	reqs = list(/obj/item/folder/paperwork = 1)
 	category = CAT_MISC
 
+/datum/crafting_recipe/laserpointer
+	name = "Laser Pointer"
+	result = /obj/item/laser_pointer
+	time = 50
+	reqs = list(/obj/item/stack/sheet/plasteel = 1,
+		        /obj/item/stack/sheet/glass = 1,
+				/obj/item/stock_parts/micro_laser = 1,
+				/obj/item/stack/cable_coil = 2)
+	tools = list(TOOL_SCREWDRIVER)
+	category = CAT_MISC
+
 //////////////
 //Banners/////
 //////////////
