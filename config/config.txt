@@ -234,7 +234,7 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## discord invite address
-# DSICORDURL https://discord.gg/
+# DISCORDURL https://discord.gg/
 
 ## Wiki address
 # WIKIURL https://katlin.dog/citadel-wiki
