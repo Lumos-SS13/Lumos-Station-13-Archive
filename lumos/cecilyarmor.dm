@@ -1,45 +1,45 @@
 /obj/item/clothing/suit/ironarmor
-    name = "Iron Plated Armor"
-    desc = "Iron Armor."
-    icon_state = "ironarmor"
-    item_state = "ironarmor"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-   	allowed = list(/obj/item/pickaxe, /obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/toy, /obj/item/storage/fancy/cigarettes, /obj/item/lighter)
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Iron Plated Armor"
+	desc = "Iron Armor."
+	icon_state = "ironarmor"
+	item_state = "ironarmor"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	allowed = list(/obj/item/pickaxe, /obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/toy, /obj/item/storage/fancy/cigarettes, /obj/item/lighter)
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/clothing/shoes/ironboots
-    name = "Iron Plated Boots"
-    desc = "Iron Boots, heavy probably."
-    icon_state = "ironboots"
-    item_state = "ironboots"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Iron Plated Boots"
+	desc = "Iron Boots, heavy probably."
+	icon_state = "ironboots"
+	item_state = "ironboots"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/clothing/gloves/irongauntlets
-    name = "Iron Plated gauntlets"
-    desc = "Iron for your hands."
-    icon_state = "irongauntlets"
-    item_state = "irongauntlets"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Iron Plated gauntlets"
+	desc = "Iron for your hands."
+	icon_state = "irongauntlets"
+	item_state = "irongauntlets"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/clothing/head/ironhood
-    name = "Iron Plated Hood"
-    desc = "More of an iron mask really."
-    icon_state = "ironhoodtwo"
-    item_state = "ironhoodtwo"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-    flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-    flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Iron Plated Hood"
+	desc = "More of an iron mask really."
+	icon_state = "ironhoodtwo"
+	item_state = "ironhoodtwo"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/melee/ironsword
 	name = "Iron Longsword"
@@ -124,44 +124,44 @@
 	update_icon()
 
 /obj/item/clothing/head/hornedironhood
-    name = "Horned Iron Plated Hood"
-    desc = "More of an iron mask really, now with 200% more horns."
-    icon_state = "ironhood"
-    item_state = "ironhood"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-    flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-    flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Horned Iron Plated Hood"
+	desc = "More of an iron mask really, now with 200% more horns."
+	icon_state = "ironhood"
+	item_state = "ironhood"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/clothing/head/galea
-    name = "Iron Galea"
-    desc = "A full iron helmet to protect that squishy brain of yours."
-    icon_state = "irongalea"
-    item_state = "ironggalea"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    mutantrace_variation = NONE
-    flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-    flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-    armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+	name = "Iron Galea"
+	desc = "A full iron helmet to protect that squishy brain of yours."
+	icon_state = "irongalea"
+	item_state = "ironggalea"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	mutantrace_variation = NONE
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
 /obj/item/clothing/neck/bmantlet
-    name = "Black Mantlet"
-    desc = "A well fitting black mantlet."
-    icon_state = "bmantlet"
-    item_state = "bmantlet"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
+	name = "Black Mantlet"
+	desc = "A well fitting black mantlet."
+	icon_state = "bmantlet"
+	item_state = "bmantlet"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
 
 /obj/item/clothing/head/floppyhat
-    name = "Widebrimmed Hat"
-    desc = "A floppy black hat."
-    icon_state = "floppyhat"
-    item_state = "floppyhat"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
+	name = "Widebrimmed Hat"
+	desc = "A floppy black hat."
+	icon_state = "floppyhat"
+	item_state = "floppyhat"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
 
 /obj/item/storage/belt/smallbag
 	name = "Smallbag"
@@ -180,16 +180,16 @@
 	STR.max_combined_w_class = 20
 
 /obj/item/clothing/suit/hooded/bcloak
-    name = "Black Cloak"
-    desc = "A decent black cloak."
-    icon_state = "bcloak"
-    item_state = "bcloak"
-    icon = 'lumos/clothingicons.dmi'
-    alternate_worn_icon = 'lumos/clothing.dmi'
-    hoodtype = /obj/item/clothing/head/hooded/cloakhood/bcloak
-    body_parts_covered = CHEST|GROIN|ARMS
-    mutantrace_variation = NONE
-    slot_flags = ITEM_SLOT_NECK | ITEM_SLOT_OCLOTHING
+	name = "Black Cloak"
+	desc = "A decent black cloak."
+	icon_state = "bcloak"
+	item_state = "bcloak"
+	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/clothing.dmi'
+	hoodtype = /obj/item/clothing/head/hooded/cloakhood/bcloak
+	body_parts_covered = CHEST|GROIN|ARMS
+	mutantrace_variation = NONE
+	slot_flags = ITEM_SLOT_NECK | ITEM_SLOT_OCLOTHING
 
 /obj/item/clothing/head/hooded/cloakhood/bcloak
 	name = "Black Cloak Hood"
