@@ -3073,6 +3073,7 @@
 #include "interface\interface.dm"
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
+#include "lumos\cecilyarmor.dm"
 #include "modular_citadel\code\init.dm"
 #include "modular_citadel\code\__HELPERS\list2list.dm"
 #include "modular_citadel\code\__HELPERS\lists.dm"
