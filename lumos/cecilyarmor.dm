@@ -84,7 +84,7 @@
 
 /obj/item/storage/backpack/scabbard/ComponentInitialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
+	var/datum/component/storage/STR = GetComponent( /datum/component/storage)
 	STR.max_items = 1
 	STR.rustle_sound = FALSE
 	STR.max_w_class = WEIGHT_CLASS_BULKY
@@ -93,7 +93,7 @@
 		))
 
 /obj/item/storage/backpack/scabbard/examine(mob/user)
-	..()
+	. = ..()
 	if(length(contents))
 		to_chat(user, "<span class='notice'>Alt-click it to quickly draw the blade.</span>")
 
@@ -174,7 +174,7 @@
 
 /obj/item/storage/belt/smallbag/ComponentInitialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 6
 	STR.max_w_class = WEIGHT_CLASS_SMALL
 	STR.max_combined_w_class = 20
