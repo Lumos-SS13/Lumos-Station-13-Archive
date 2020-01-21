@@ -3087,7 +3087,6 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "lumos\code\cecilyarmor.dm"
-#include "modular_citadel\code\init.dm"
 #include "modular_citadel\code\__HELPERS\list2list.dm"
 #include "modular_citadel\code\__HELPERS\lists.dm"
 #include "modular_citadel\code\__HELPERS\mobs.dm"
