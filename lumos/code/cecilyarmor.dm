@@ -3,8 +3,8 @@
 	desc = "Iron Armor."
 	icon_state = "ironarmor"
 	item_state = "ironarmor"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	allowed = list(/obj/item/pickaxe, /obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/toy, /obj/item/storage/fancy/cigarettes, /obj/item/lighter)
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
@@ -14,8 +14,8 @@
 	desc = "Iron Boots, heavy probably."
 	icon_state = "ironboots"
 	item_state = "ironboots"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
@@ -24,8 +24,8 @@
 	desc = "Iron for your hands."
 	icon_state = "irongauntlets"
 	item_state = "irongauntlets"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
@@ -34,8 +34,8 @@
 	desc = "More of an iron mask really."
 	icon_state = "ironhoodtwo"
 	item_state = "ironhoodtwo"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
@@ -46,9 +46,9 @@
 	desc = "A sword made of iron."
 	icon_state = "longsword"
 	item_state = "longsword"
-	lefthand_file = 'lumos/lefthand.dmi'
-	righthand_file = 'lumos/righthand.dmi'
-	icon = 'lumos/clothingicons.dmi'
+	lefthand_file = 'lumos/icons/lefthand.dmi'
+	righthand_file = 'lumos/icons/righthand.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	flags_1 = CONDUCT_1
 	obj_flags = UNIQUE_RENAME
 	force = 20
@@ -76,10 +76,10 @@
 /obj/item/storage/backpack/scabbard
 	name = "Sword Scabbard"
 	desc = "A standard scabbard to hold a sword."
-	icon = 'lumos/clothingicons.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	icon_state = "scabbard"
 	item_state = "scabbard"
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	w_class = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/scabbard/ComponentInitialize()
@@ -128,8 +128,8 @@
 	desc = "More of an iron mask really, now with 200% more horns."
 	icon_state = "ironhood"
 	item_state = "ironhood"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
@@ -140,8 +140,8 @@
 	desc = "A full iron helmet to protect that squishy brain of yours."
 	icon_state = "irongalea"
 	item_state = "ironggalea"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	mutantrace_variation = NONE
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
@@ -152,24 +152,24 @@
 	desc = "A well fitting black mantlet."
 	icon_state = "bmantlet"
 	item_state = "bmantlet"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 
 /obj/item/clothing/head/floppyhat
 	name = "Widebrimmed Hat"
 	desc = "A floppy black hat."
 	icon_state = "floppyhat"
 	item_state = "floppyhat"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 
 /obj/item/storage/belt/smallbag
 	name = "Smallbag"
 	desc = "Holds stuff."
 	icon_state = "smallbag"
 	item_state = "smallbag"
-	alternate_worn_icon = 'lumos/clothing.dmi'
-	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	content_overlays = TRUE
 
 /obj/item/storage/belt/smallbag/ComponentInitialize()
@@ -184,8 +184,8 @@
 	desc = "A decent black cloak."
 	icon_state = "bcloak"
 	item_state = "bcloak"
-	icon = 'lumos/clothingicons.dmi'
-	alternate_worn_icon = 'lumos/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
 	hoodtype = /obj/item/clothing/head/hooded/cloakhood/bcloak
 	body_parts_covered = CHEST|GROIN|ARMS
 	mutantrace_variation = NONE
@@ -194,8 +194,8 @@
 /obj/item/clothing/head/hooded/cloakhood/bcloak
 	name = "Black Cloak Hood"
 	icon_state = "bcloakup"
-	alternate_worn_icon = 'lumos/clothing.dmi'
-	icon = 'lumos/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	desc = "conceal your face in shame with this nanotrasen brand hood"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
@@ -213,11 +213,11 @@
 /obj/item/flashlight/lamplight
 	name = "lamplight"
 	desc = "A small oil burning lamp."
-	icon = 'lumos/clothingicons.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	icon_state = "lamplight"
 	item_state = "lamplight"
-	lefthand_file = 'lumos/lefthand.dmi'
-	righthand_file = 'lumos/righthand.dmi'
+	lefthand_file = 'lumos/icons/lefthand.dmi'
+	righthand_file = 'lumos/icons/righthand.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
