@@ -5,8 +5,8 @@
 	desc = "A comfortable collar with a silver plate on the front denoting the wearer as property of Moffy."
 	icon_state = "moffy" //One of the only things that's actually custom made to some degree
 	item_color = "moffy"
-	icon = 'icons/obj/custom.dmi'
-	alternate_worn_icon = 'icons/mob/custom_w.dmi'
+	icon = 'lumos/icons/adminloadout.dmi'
+	alternate_worn_icon = 'lumos/icons/adminloadout_w.dmi'
 	hasprimary = TRUE
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 	primary_color = "#222222"
@@ -200,8 +200,8 @@
 	desc = "An adorable stuffed toy that resembles a rather motherly looking lizard girl. Her appearance radiathes an aura of love, warmth and comfort. Whenever you hug the plushie you can't help but notice how delightfully soft it is."
 	icon_state = "aleksi" //Also something I actually made
 	item_state = "aleksi"
-	icon = 'icons/obj/custom.dmi'
-	alternate_worn_icon = 'icons/mob/custom_w.dmi'
+	icon = 'lumos/icons/adminloadout.dmi'
+	alternate_worn_icon = 'lumos/icons/adminloadout_w.dmi'
 
 /obj/item/radio/headset/moffy/aleksi
 	name = "Aleksi's Headset"
