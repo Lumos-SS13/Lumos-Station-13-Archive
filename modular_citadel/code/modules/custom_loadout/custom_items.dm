@@ -600,6 +600,7 @@
 	desc = "Custom made and fit hardsuit with impressive armour and fireproofing."
 	icon_state = "hardsuit0-syndielite"
 	item_color = "syndielite"
+	slowdown = 0
 	w_class = WEIGHT_CLASS_NORMAL
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 60, "energy" = 40, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
 	allowed = list(/obj/item/gun, /obj/item/ammo_box,/obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
