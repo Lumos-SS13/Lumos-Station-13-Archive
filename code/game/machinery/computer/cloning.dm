@@ -64,7 +64,7 @@
 	if(!(scanner && LAZYLEN(pods) && autoprocess))
 		return
 
-	if(scanner.occupant && scanner.scan_level > 2)
+	if(scanner.occupant && scanner.scan_level > 2) //Lumos change
 		scan_occupant(scanner.occupant)
 
 	for(var/datum/data/record/R in records)
