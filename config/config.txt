@@ -110,6 +110,9 @@ LOG_GAME
 ## log player votes
 LOG_VOTE
 
+## log player crafting
+LOG_CRAFT
+
 ## log client Whisper
 LOG_WHISPER
 
@@ -233,8 +236,8 @@ CHECK_RANDOMIZER
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
 # SERVER ss13.example.com:2506
 
-## forum address
-# FORUMURL https://citadel-station.net/forum/
+## discord invite address
+# DISCORDURL https://discord.gg/abcd
 
 ## Wiki address
 # WIKIURL https://katlin.dog/citadel-wiki
