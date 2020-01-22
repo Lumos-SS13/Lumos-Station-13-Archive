@@ -562,8 +562,10 @@
 /obj/item/clothing/neck/petcollar/moffy
 	name = "Stylish Leather Collar"
 	desc = "A comfortable collar with a silver plate on the front denoting the wearer as property of Moffy."
-	icon_state = "moffy" //Only thing that's actually custom to some degree
+	icon_state = "moffy" //One of the only things that's actually custom made to some degree
 	item_color = "moffy"
+	icon = 'icons/obj/custom.dmi'
+	alternate_worn_icon = 'icons/mob/custom_w.dmi'
 	hasprimary = TRUE
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 	primary_color = "#222222"
@@ -613,7 +615,7 @@
 	vision_flags = SEE_TURFS|SEE_MOBS|SEE_OBJS
 	flash_protect = 2
 	darkness_view = 2
-	scan_reagents = TRUE
+	clothing_flags = SCAN_REAGENTS
 	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
@@ -625,7 +627,7 @@
 	vision_flags = SEE_TURFS|SEE_MOBS|SEE_OBJS
 	flash_protect = 2
 	darkness_view = 2
-	scan_reagents = TRUE
+	clothing_flags = SCAN_REAGENTS
 	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
@@ -750,6 +752,14 @@
 	. = ..()
 
 ///Stuff Moffy "made" for Aleksi too///
+
+/obj/item/toy/plush/lizardplushie/aleksi
+	name = "Aleksi plushie"
+	desc = "An adorable stuffed toy that resembles a rather motherly looking lizard girl. Her appearance radiathes an aura of love, warmth and comfort. Whenever you hug the plushie you can't help but notice how delightfully soft it is."
+	icon_state = "aleksi" //Also something I actually made
+	item_state = "aleksi"
+	icon = 'icons/obj/custom.dmi'
+	alternate_worn_icon = 'icons/mob/custom_w.dmi'
 
 /obj/item/radio/headset/moffy/aleksi
 	name = "Aleksi's Headset"
