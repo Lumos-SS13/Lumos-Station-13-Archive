@@ -64,6 +64,9 @@
 	if(!(scanner && LAZYLEN(pods) && autoprocess))
 		return
 
+	if(scanner.occupant && scanner.scan_level > 2)
+		scan_occupant(scanner.occupant)
+
 	for(var/datum/data/record/R in records)
 		var/obj/machinery/clonepod/pod = GetAvailableEfficientPod(R.fields["mind"])
 
