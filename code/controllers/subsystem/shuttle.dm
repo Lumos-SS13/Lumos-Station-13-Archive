@@ -54,7 +54,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
-	var/auto_call = 360000 //Lumos change - 10 hours till auto call because people like messing around for ages
+	var/auto_call = 360000 //Lumos change - 10 hours till auto call
 	var/realtimeofstart = 0
 
 /datum/controller/subsystem/shuttle/Initialize(timeofday)
