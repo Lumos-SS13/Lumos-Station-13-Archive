@@ -392,7 +392,7 @@
 	splitter = ","
 
 /datum/config_entry/number/auto_transfer_delay
-	config_entry_value = 72000
+	config_entry_value = 360000
 	min_val = 0
 
 /datum/config_entry/flag/pai_custom_holoforms
