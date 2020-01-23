@@ -347,3 +347,15 @@
 
 /datum/interaction/lewd/nuts/display_interaction(var/mob/living/carbon/human/user, var/mob/living/carbon/human/target)
 	user.nut_face(target)
+
+/datum/interaction/lewd/nut_smack
+	command = "smack_nuts"
+	description = "Smack their nuts."
+	interaction_sound = "honk/sound/interactions/slap.ogg"
+	simple_message = "USER slaps TARGET's nuts!"
+	require_target_penis = TRUE
+	require_target_bottomless = TRUE
+	needs_physical_contact = TRUE
+	max_distance = 1
+	write_log_user = "slapped-nuts"
+	write_log_target = "had their nuts slapped by"
