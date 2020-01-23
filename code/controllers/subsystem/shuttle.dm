@@ -54,7 +54,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
-	var/auto_call = 72000 //CIT CHANGE - time before in deciseconds in which the shuttle is auto called. Default is 2ish hours plus 15 for the shuttle. So total is 3.
+	var/auto_call = 360000 //Lumos change - 10 hours till auto call
 	var/realtimeofstart = 0
 
 /datum/controller/subsystem/shuttle/Initialize(timeofday)
