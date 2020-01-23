@@ -114,6 +114,13 @@
 		. += effects_exam
 
 	//CIT CHANGES START HERE - adds genital details to examine text
+
+	if(client && client.prefs)
+		if(client.prefs.toggles & VERB_CONSENT)
+			. += "[t_His] player has allowed lewd verbs.\n"
+		else
+			. += "[t_His] player has not allowed lewd verbs.\n"
+
 	if(LAZYLEN(internal_organs))
 		for(var/obj/item/organ/genital/dicc in internal_organs)
 			if(istype(dicc) && dicc.is_exposed())
