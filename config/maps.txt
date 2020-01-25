@@ -25,6 +25,10 @@ map metastation
 	#voteweight 0.5
 endmap
 
+map lumos
+	#voteweight 1
+endmap
+
 map pubbystation
 endmap
 
