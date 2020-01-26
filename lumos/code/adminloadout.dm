@@ -179,7 +179,6 @@
 	detonatable = FALSE
 
 /obj/item/card/id/moffy
-	name = "Moffy's ID Card"
 	desc = "Moffy's All Access ID Card."
 	icon_state = "centcom"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
@@ -187,7 +186,7 @@
 	registered_name = "Moffy"
 	assignment = "Head Moff"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_MAINT, ACCESS_AWAY_SEC, ACCESS_AWAY_ENGINE)
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_MAINT, ACCESS_AWAY_SEC, ACCESS_AWAY_ENGINE, ACCESS_BLOODCULT, ACCESS_CLOCKCULT) //Can't hide from the moff
 
 /obj/item/card/id/moffy/Initialize()
 	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()
@@ -208,7 +207,6 @@
 	desc = "The faint noise of the hit song Ocean Man can be heard from within the headset whenever it's not actively listening to comms."
 
 /obj/item/card/id/moffy/aleksi
-	name = "Aleksi's ID Card"
 	desc = "Aleksi's All Access ID Card."
 	registered_name = "Aleksi Ishimura"
 	assignment = "Head Lizzer"
