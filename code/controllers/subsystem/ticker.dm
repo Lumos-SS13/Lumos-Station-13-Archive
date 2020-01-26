@@ -490,7 +490,7 @@ SUBSYSTEM_DEF(ticker)
 		SSticker.modevoted = TRUE
 		var/dynamic = CONFIG_GET(flag/dynamic_voting)
 		if(dynamic)
-			SSvote.initiate_vote("dynamic","server",hideresults=TRUE,votesystem=SCORE_VOTING,forced=TRUE,vote_time = 2 MINUTES) //Lumos change from 20 minutes to 2
+			SSvote.initiate_vote("dynamic","server",hideresults=TRUE,votesystem=SCORE_VOTING,forced=TRUE,vote_time = 2 MINUTES) //Lumos change so the vote ends in 2 minutes
 		else
 			SSvote.initiate_vote("roundtype","server",hideresults=TRUE,votesystem=PLURALITY_VOTING,forced=TRUE, \
 			vote_time = (CONFIG_GET(flag/modetier_voting) ? 1 MINUTES : 2 MINUTES))
