@@ -187,10 +187,9 @@
 	registered_name = "Moffy"
 	assignment = "Head Moff"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_MAINT, ACCESS_AWAY_SEC, ACCESS_AWAY_ENGINE)
 
 /obj/item/card/id/moffy/Initialize()
-	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()
+	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()+ACCESS_AWAY_GENERAL+ACCESS_AWAY_MAINT+ACCESS_AWAY_SEC+ACCESS_AWAY_ENGINE+ACCESS_BLOODCULT+ACCESS_CLOCKCULT //Can't hide from the moff
 	. = ..()
 
 ///Stuff Moffy "made" for Aleksi too///
