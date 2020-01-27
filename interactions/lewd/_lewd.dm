@@ -44,7 +44,8 @@ mob/living/Initialize()
 		refractory_period--
 	if(loselust && lust)
 		lust--
-	hud_used.arousal?.update_icon_state()
+	if(client)
+		hud_used.arousal?.update_icon_state()
 	. = ..()
 
 /mob/living/proc/has_penis()
