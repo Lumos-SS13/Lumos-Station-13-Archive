@@ -337,6 +337,11 @@
 	healths.hud = src
 	infodisplay += healths
 
+	arousal = new /obj/screen/arousal()
+	arousal.icon_state = "arousal0"
+	arousal.hud = src
+	infodisplay += arousal
+
 	staminas = new /obj/screen/staminas()
 	staminas.hud = src
 	infodisplay += staminas

@@ -31,10 +31,21 @@
 	var/lust = 0
 	var/multiorgasms = 1
 	var/refractory_period = 0
+	var/refract_total
+	var/loselust = FALSE
+
+mob/living/Initialize()
+	. = ..()
+	sexual_potency =  rand(10,25)
+	lust_tolerance = rand(75,200)
 
 /mob/living/Life(seconds, times_fired)
 	if(refractory_period)
 		refractory_period--
+	if(loselust && lust)
+		lust--
+	if(client)
+		hud_used.arousal?.update_icon_state()
 	. = ..()
 
 /mob/living/proc/has_penis()
@@ -148,12 +159,8 @@
 			else
 				message = "cums on the floor!"
 
-		lust = 5
-		lust_tolerance += 50
-
 	else
 		message = pick("cums violently!", "twists in orgasm.")
-		lust -= pick(10, 15, 20, 25)
 
 	/*if(gender == MALE)
 		playsound(loc, "honk/sound/interactions/final_m[rand(1, 3)].ogg", 90, 1, 0)//, pitch = get_age_pitch())
@@ -167,11 +174,14 @@
 		add_logs(partner, src, "came on")*/
 
 	if(multiorgasms > (sexual_potency * 0.34)) //AAAAA, WE DONT WANT NEGATIVES HERE, RE
-		refractory_period = rand(250, 400) - sexual_potency//sex cooldown
+		refractory_period = rand(60, 180) - sexual_potency//sex cooldown
+		refract_total = refractory_period
 		src.set_drugginess(rand(20, 30))
 	else
-		refractory_period = rand(250, 400) - sexual_potency
+		refractory_period = rand(60, 180) - sexual_potency
+		refract_total = refractory_period
 		src.set_drugginess(rand(5, 10))
+	hud_used.arousal?.update_icon_state()
 
 /mob/living/cum(mob/living/partner, target_orifice)
 	if(multiorgasms < sexual_potency)
@@ -775,7 +785,7 @@
 		return A.name
 
 /mob/living/proc/handle_post_sex(amount, orifice, mob/living/partner)
-	sleep(5)
+	hud_used.arousal?.update_icon_state()
 
 	if(stat != CONSCIOUS)
 		return
@@ -783,6 +793,10 @@
 	if(amount)
 		lust += amount
 	if(lust >= lust_tolerance)
-		cum(partner, orifice)
+		if(prob(10))
+			to_chat(src, "<b>You struggle to not orgasm!</b>")
+			return
+		if(lust >= lust_tolerance*3)
+			cum(partner, orifice)
 	else
 		moan()
