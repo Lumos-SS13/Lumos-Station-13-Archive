@@ -41,6 +41,18 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
 
+/obj/item/clothing/head/irongalea
+	name = "Iron Galea"
+	desc = "A rounded helmet made of iron."
+	icon_state = "irongalea"
+	item_state = "irongalea"
+	icon = 'lumos/icons/clothingicons.dmi'
+	alternate_worn_icon = 'lumos/icons/clothing.dmi'
+	mutantrace_variation = NONE
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 15, "acid" = 50)
+
 /obj/item/melee/ironsword
 	name = "Iron Longsword"
 	desc = "A sword made of iron."
@@ -51,6 +63,24 @@
 	icon = 'lumos/icons/clothingicons.dmi'
 	flags_1 = CONDUCT_1
 	obj_flags = UNIQUE_RENAME
+	force = 20
+	throwforce = 15
+	w_class = WEIGHT_CLASS_BULKY
+	block_chance = 50
+	armour_penetration = 75
+	sharpness = IS_SHARP
+	attack_verb = list("slashed", "cut")
+	hitsound = 'sound/weapons/rapierhit.ogg'
+	materials = list(MAT_METAL = 1000)
+
+/obj/item/melee/cleaversword
+	name = "Cleaver"
+	desc = "A cleaver like blade."
+	icon_state = "cleaversword"
+	item_state = "cleaversword"
+	lefthand_file = 'lumos/icons/lefthand.dmi'
+	righthand_file = 'lumos/icons/righthand.dmi'
+	icon = 'lumos/icons/clothingicons.dmi'
 	force = 20
 	throwforce = 15
 	w_class = WEIGHT_CLASS_BULKY
