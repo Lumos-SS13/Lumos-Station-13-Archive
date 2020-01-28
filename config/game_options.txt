@@ -438,6 +438,7 @@ ROUNDSTART_RACES felinid
 #ROUNDSTART_RACES uranium
 #ROUNDSTART_RACES abductor
 #ROUNDSTART_RACES synth
+ROUNDSTART_RACES dullahan
 
 ## Races that are straight upgrades. If these are on expect powergamers to always pick them
 #ROUNDSTART_RACES skeleton
