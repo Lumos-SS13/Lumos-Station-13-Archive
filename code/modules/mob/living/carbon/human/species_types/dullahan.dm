@@ -22,10 +22,12 @@
 	id = "pumpkindullahan"
 	pumpkin = TRUE
 
+/*
 /datum/species/dullahan/check_roundstart_eligible()
 	if(SSevents.holidays && SSevents.holidays[HALLOWEEN])
 		return TRUE
 	return FALSE
+*/
 
 /datum/species/dullahan/on_species_gain(mob/living/carbon/human/H, datum/species/old_species)
 	. = ..()
