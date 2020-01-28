@@ -25,7 +25,7 @@ map metastation
 	#voteweight 0.5
 endmap
 
-map lumos
+map lumosstation
 	#voteweight 1
 endmap
 
