@@ -181,6 +181,7 @@ mob/living/Initialize()
 		refractory_period = rand(60, 180) - sexual_potency
 		refract_total = refractory_period
 		src.set_drugginess(rand(5, 10))
+	lust = 0
 	hud_used.arousal?.update_icon_state()
 
 /mob/living/cum(mob/living/partner, target_orifice)

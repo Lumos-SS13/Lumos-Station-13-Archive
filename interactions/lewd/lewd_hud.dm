@@ -15,7 +15,6 @@
 			return
 		if(M.lust >= M.lust_tolerance)
 			M.cum(M.last_partner, M.last_orifice)
-			M.lust = 0
 		return TRUE
 
 /obj/screen/arousal/update_icon_state()
