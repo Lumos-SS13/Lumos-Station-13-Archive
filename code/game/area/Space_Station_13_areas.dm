@@ -352,6 +352,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/captain/private
 	name = "Captain's Quarters"
 	icon_state = "captain"
+	safe = TRUE
 
 /area/crew_quarters/heads/chief
 	name = "Chief Engineer's Office"
@@ -360,6 +361,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/chief/private
 	name = "Chief Engineer's Private Quarters"
 	icon_state = "ce_private"
+	safe = TRUE
 
 /area/crew_quarters/heads/cmo
 	name = "Chief Medical Officer's Office"
@@ -368,6 +370,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/cmo/private
 	name = "Chief Medical Officer's Private Quarters"
 	icon_state = "cmo_private"
+	safe = TRUE
 
 /area/crew_quarters/heads/hop
 	name = "Head of Personnel's Office"
@@ -376,6 +379,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/hop/private
 	name = "Head of Personnel's Private Quarters"
 	icon_state = "hop_private"
+	safe = TRUE
 
 /area/crew_quarters/heads/hos
 	name = "Head of Security's Office"
@@ -384,6 +388,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/hos/private
 	name = "Head of Security's Private Quarters"
 	icon_state = "hos_private"
+	safe = TRUE
 
 /area/crew_quarters/heads/hor
 	name = "Research Director's Office"
@@ -392,6 +397,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/heads/hor/private
 	name = "Research Director's Private Quarters"
 	icon_state = "rd_private"
+	safe = TRUE
 
 /area/comms
 	name = "Communications Relay"
@@ -557,6 +563,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/chapel/main/monastery
 	name = "Monastery"
 	nightshift_public_area = NIGHTSHIFT_AREA_NONE
+	safe = TRUE
 
 /area/chapel/office
 	name = "Chapel Office"
@@ -802,6 +809,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/medical/patients_rooms
 	name = "Patients' Rooms"
 	icon_state = "patients"
+	safe = TRUE
 
 /area/medical/patients_rooms/room_a
 	name = "Patient Room A"
@@ -1002,6 +1010,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/quartermaster/qm/private
 	name = "Quartermaster's Private Quarters"
 	icon_state = "quart"
+	safe = TRUE
 
 /area/quartermaster/miningdock
 	name = "Mining Dock"
@@ -1023,6 +1032,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Custodial Closet"
 	icon_state = "janitor"
 	flags_1 = NONE
+	safe = TRUE
 
 /area/hydroponics
 	name = "Hydroponics"
