@@ -126,7 +126,7 @@
 
 
 /turf/open/floor/plating/asteroid/airless
-	initial_gas_mix = AIRLESS_ATMOS
+	planetary_atmos = TRUE
 	baseturfs = /turf/open/floor/plating/asteroid/airless
 	turf_type = /turf/open/floor/plating/asteroid/airless
 
