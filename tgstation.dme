@@ -1152,6 +1152,8 @@
 #include "code\game\turfs\simulated\floor\plating\asteroid.dm"
 #include "code\game\turfs\simulated\floor\plating\dirt.dm"
 #include "code\game\turfs\simulated\floor\plating\misc_plating.dm"
+#include "code\game\turfs\simulated\floor\plating\sand.dm"
+#include "code\game\turfs\simulated\floor\plating\snow.dm"
 #include "code\game\turfs\simulated\wall\mineral_walls.dm"
 #include "code\game\turfs\simulated\wall\misc_walls.dm"
 #include "code\game\turfs\simulated\wall\reinf_walls.dm"
