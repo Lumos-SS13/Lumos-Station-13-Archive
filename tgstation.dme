@@ -3107,6 +3107,7 @@
 #include "interface\stylesheet.dm"
 #include "lumos\code\adminloadout.dm"
 #include "lumos\code\cecilyarmor.dm"
+#include "lumos\code\lanternhook.dm"
 #include "modular_citadel\code\__HELPERS\list2list.dm"
 #include "modular_citadel\code\__HELPERS\lists.dm"
 #include "modular_citadel\code\__HELPERS\mobs.dm"
