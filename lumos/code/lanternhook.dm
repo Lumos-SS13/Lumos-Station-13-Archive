@@ -7,7 +7,7 @@
 
 /obj/structure/lanternhook
 	name = "lantern hook"
-	desc = "A hook for a lantern."
+	desc = "A hook for a lantern. Alt-click to toggle the lantern."
 	icon = 'lumos/icons/lanternhook.dmi'
 	icon_state = "hanginglantern0"
 	var/obj/item/flashlight/lamplight/lamplight
