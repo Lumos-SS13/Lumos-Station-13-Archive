@@ -49,11 +49,7 @@
 	has_gravity = 1
 	})
 "ag" = (
-/obj/structure/fence,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating/dirt/dark,
+/turf/closed/mineral/random,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -65,13 +61,13 @@
 	})
 "ai" = (
 /obj/docking_port/stationary{
-	dir = 2;
-	dwidth = 2;
-	height = 16;
+	dir = 8;
+	dwidth = 3;
+	height = 15;
 	id = "arrivals_stationary";
-	name = "omega arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/omega;
-	width = 5
+	name = "lumos arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/lumos;
+	width = 7
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/quartermaster/storage{
@@ -88,10 +84,11 @@
 	has_gravity = 1
 	})
 "ak" = (
-/obj/effect/turf_decal/loading_area{
-	dir = 8
+/obj/machinery/power/tracker,
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel/sepia,
+/turf/open/floor/plating,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -139,9 +136,8 @@
 	has_gravity = 1
 	})
 "aq" = (
-/obj/machinery/power/tracker,
 /obj/structure/cable{
-	icon_state = "0-2"
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/quartermaster/storage{
@@ -154,10 +150,10 @@
 	has_gravity = 1
 	})
 "as" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/sepia,
+/turf/open/floor/plating,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -243,14 +239,10 @@
 	has_gravity = 1
 	})
 "aD" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
+/obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating/dirt/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -266,16 +258,13 @@
 	has_gravity = 1
 	})
 "aF" = (
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/effect/turf_decal/tile/green{
+	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -285,16 +274,13 @@
 	has_gravity = 1
 	})
 "aH" = (
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/effect/turf_decal/tile/green{
+	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
+/obj/effect/turf_decal/tile/green{
+	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -317,17 +303,9 @@
 	has_gravity = 1
 	})
 "aK" = (
-/obj/machinery/requests_console{
-	department = "Cargo Bay";
-	departmentType = 2;
-	pixel_x = -30
-	},
-/obj/structure/table,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/blood/innards,
 /turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -361,6 +339,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/solar_assembly,
 /turf/open/floor/plating/dirt/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -389,7 +368,7 @@
 	dir = 8;
 	dwidth = 5;
 	height = 9999;
-	id = "supply_home";
+	id = "/datum/map_template/shuttle/cargo/lumos";
 	name = "Cargo Bay";
 	width = 9999
 	},
@@ -403,10 +382,8 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "aU" = (
-/obj/machinery/power/smes,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -451,31 +428,25 @@
 	has_gravity = 1
 	})
 "ba" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/machinery/vending/tool,
-/turf/open/floor/plasteel/sepia,
+/obj/structure/girder,
+/obj/structure/grille,
+/turf/closed/wall,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "bb" = (
-/obj/machinery/light/small{
-	dir = 4
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 9
 	},
-/obj/machinery/vending/assist,
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
-	pixel_y = 30
-	},
-/turf/open/floor/plasteel/sepia,
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "bc" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
+/obj/structure/spacevine,
+/obj/item/circuitboard/machine/chem_dispenser,
+/obj/structure/bed/roller,
 /turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -490,15 +461,9 @@
 	has_gravity = 1
 	})
 "be" = (
-/obj/structure/fence{
-	icon_state = "straight";
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/light,
-/turf/open/floor/plating/dirt/dark,
+/obj/structure/spacevine,
+/mob/living/simple_animal/hostile/venus_human_trap,
+/turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -515,29 +480,8 @@
 	has_gravity = 1
 	})
 "bg" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/obj/structure/table,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/obj/item/multitool{
-	pixel_x = 4
-	},
-/obj/item/multitool{
-	pixel_x = 4
-	},
-/obj/item/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
+/obj/structure/spacevine,
+/obj/structure/bed/roller,
 /turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -566,10 +510,8 @@
 	has_gravity = 1
 	})
 "bj" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/dark,
+/obj/item/solar_assembly,
+/turf/open/floor/plating,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -579,8 +521,8 @@
 	has_gravity = 1
 	})
 "bl" = (
-/obj/structure/closet/crate/trashcart,
-/turf/open/floor/plasteel/sepia,
+/obj/structure/grille,
+/turf/open/floor/plating,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -638,9 +580,10 @@
 	has_gravity = 1
 	})
 "bq" = (
-/obj/machinery/light/small{
+/obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/brown,
 /turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
@@ -712,6 +655,11 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"bx" = (
+/turf/closed/wall/mineral/iron,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "by" = (
 /turf/closed/wall/mineral/wood,
 /area/lavaland/surface/outdoors/unexplored)
@@ -737,10 +685,11 @@
 /turf/open/floor/wood,
 /area/lavaland/surface/outdoors/unexplored)
 "bD" = (
-/obj/structure/barricade/wooden/crude,
-/obj/structure/mineral_door/woodrustic,
+/obj/structure/necropolis_arch,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bE" = (
 /turf/closed/wall/r_wall/rust,
 /area/quartermaster/storage{
@@ -849,14 +798,14 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "bL" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 8
+/obj/machinery/door/airlock,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 4
 	},
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/sepia,
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -894,13 +843,15 @@
 	has_gravity = 1
 	})
 "bO" = (
-/obj/structure/spacevine,
-/turf/open/floor/plasteel/stairs,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/structure/barricade/wooden/crude,
+/obj/structure/mineral_door/woodrustic,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bP" = (
-/obj/machinery/light/small,
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/sepia,
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -916,28 +867,19 @@
 	has_gravity = 1
 	})
 "bR" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/sepia,
+/obj/machinery/door/airlock,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/spacevine,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/curtain,
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "bS" = (
-/obj/structure/fence/corner{
-	icon_state = "corner";
-	dir = 5
-	},
-/obj/structure/fence/corner{
-	icon_state = "corner";
-	dir = 9
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plating/dirt/dark,
+/obj/machinery/chem_heater,
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/sepia,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -954,9 +896,12 @@
 	has_gravity = 1
 	})
 "bU" = (
-/obj/structure/necropolis_arch,
-/turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bV" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	icon_state = "snow_corner";
@@ -971,39 +916,32 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "bW" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"bX" = (
-/obj/structure/fence/door{
-	icon_state = "door_closed";
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating/dirt/dark,
-/area/quartermaster/storage{
-	has_gravity = 1
-	})
-"bY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"bX" = (
+/turf/closed/wall/rust,
 /area/lavaland/surface/outdoors/unexplored)
-"bZ" = (
+"bY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"bZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/black,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "ca" = (
 /obj/structure/fence{
 	icon_state = "straight";
 	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
 	},
 /obj/machinery/light{
 	dir = 1
@@ -1013,116 +951,121 @@
 	has_gravity = 1
 	})
 "cb" = (
-/obj/structure/fence{
-	icon_state = "straight";
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 1
+	dir = 6
 	},
 /turf/open/floor/plating/dirt/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "cc" = (
-/obj/structure/fence{
-	icon_state = "straight";
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 4
+	dir = 10
 	},
-/obj/machinery/light,
 /turf/open/floor/plating/dirt/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "cd" = (
-/obj/structure/fence{
-	icon_state = "straight";
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/fence/corner{
-	icon_state = "corner";
-	dir = 5
-	},
-/turf/open/floor/plating/dirt/dark,
+/obj/structure/girder,
+/turf/closed/wall,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
 "ce" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/black,
-/area/lavaland/surface/outdoors/unexplored)
-"cf" = (
-/obj/structure/mineral_door/woodrustic,
-/turf/open/floor/carpet/black,
-/area/lavaland/surface/outdoors/unexplored)
-"cg" = (
-/obj/structure/bookcase,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spacevine,
-/turf/open/floor/plasteel/cult,
-/area/lavaland/surface/outdoors/unexplored)
-"ch" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"ci" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"cj" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/shield/riot/buckler,
+/turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ch" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 1
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"ck" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ci" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 4
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"cl" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cj" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 4
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"cm" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ck" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 8
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"cn" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/left,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/right,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "co" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
+/obj/structure/chair/pew/right,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cq" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -1130,7 +1073,9 @@
 	icon_state = "chapel";
 	dir = 8
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cr" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	icon_state = "snow_corner";
@@ -1141,21 +1086,28 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "cs" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/melee/ironsword,
+/obj/item/storage/backpack/scabbard,
+/turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ct" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"ct" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cu" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
-/area/lavaland/surface/outdoors/unexplored)
-"cu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper,
-/turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cv" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	icon_state = "snow_corner";
@@ -1166,105 +1118,136 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "cw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cx" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/backpack/scabbard,
+/turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cy" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/backpack/scabbard,
+/obj/item/melee/ironsword,
+/turf/open/floor/mineral/plastitanium,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cz" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/candle,
 /turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"cx" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cA" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/candle,
 /turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"cy" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/right,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 4
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"cz" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cD" = (
 /obj/effect/decal/cleanable/shreds,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"cA" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paperslip,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"cB" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cF" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/chapel{
 	icon_state = "chapel";
 	dir = 4
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"cC" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cG" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
-"cD" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/carpet/black,
-/area/lavaland/surface/outdoors/unexplored)
-"cE" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cI" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"cF" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cJ" = (
 /obj/structure/table/wood,
 /obj/item/shield/riot/buckler,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"cG" = (
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cK" = (
+/obj/structure/mineral_door/woodrustic,
+/turf/open/floor/carpet/black,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cL" = (
 /obj/structure/table/wood,
 /obj/item/candle,
 /turf/open/floor/wood,
-/area/lavaland/surface/outdoors/unexplored)
-"cH" = (
-/obj/structure/mirror{
-	pixel_y = 30
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spacevine,
-/turf/open/floor/plasteel/cult,
-/area/lavaland/surface/outdoors/unexplored)
-"cI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spacevine,
-/turf/open/floor/plasteel/cult,
-/area/lavaland/surface/outdoors/unexplored)
-"cJ" = (
-/obj/structure/bookcase,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spacevine,
-/turf/open/floor/plasteel/cult,
-/area/lavaland/surface/outdoors/unexplored)
-"cK" = (
-/turf/closed/wall/mineral/iron,
-/area/lavaland/surface/outdoors/unexplored)
-"cL" = (
-/obj/structure/spacevine,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/item/soulstone/anybody,
-/turf/open/floor/plasteel/cult,
-/area/lavaland/surface/outdoors/unexplored)
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cM" = (
-/obj/structure/healingfountain,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/bronze,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/stairs,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "cN" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
@@ -1426,17 +1409,23 @@
 	},
 /area/lavaland/surface/outdoors/unexplored)
 "de" = (
+/obj/structure/bookcase,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/shield/riot/buckler,
-/turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "df" = (
-/obj/structure/table/wood,
+/obj/structure/mirror{
+	pixel_y = 30
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/melee/ironsword,
-/obj/item/storage/backpack/scabbard,
-/turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "dg" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	icon_state = "snow_corner";
@@ -1496,17 +1485,33 @@
 /turf/open/floor/plating/dirt/dark,
 /area/lavaland/surface/outdoors/unexplored)
 "dn" = (
-/obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/backpack/scabbard,
-/turf/open/floor/mineral/plastitanium,
-/area/lavaland/surface/outdoors/unexplored)
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "do" = (
-/obj/structure/table/wood,
+/obj/structure/bookcase,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/backpack/scabbard,
-/obj/item/melee/ironsword,
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dp" = (
+/obj/structure/chair/wood,
+/obj/structure/fluff/paper,
+/obj/structure/fluff/paper/stack,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dq" = (
+/obj/structure/fluff/paper/corner{
+	icon_state = "papercorner";
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/lavaland/surface/outdoors/unexplored)
 "dr" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -1548,265 +1553,1260 @@
 	},
 /turf/open/floor/plating/dirt/dark,
 /area/lavaland/surface/outdoors/unexplored)
+"dv" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dw" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dz" = (
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dA" = (
+/obj/structure/grille/broken,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dB" = (
+/obj/structure/bed,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"dC" = (
+/obj/structure/bookcase,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dD" = (
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/item/soulstone/anybody,
+/turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dE" = (
+/obj/structure/sink/puddle,
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"dF" = (
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dG" = (
+/obj/structure/bed,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dH" = (
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dI" = (
+/obj/structure/dresser,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"dJ" = (
+/obj/structure/bedsheetbin,
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"dK" = (
+/obj/structure/healingfountain,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/bronze,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dM" = (
+/obj/structure/window/fulltile,
+/obj/structure/grille,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dN" = (
+/obj/structure/piano,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dO" = (
+/obj/structure/girder,
+/turf/closed/wall/rust,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dP" = (
+/obj/item/circuitboard/machine/protolathe,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dQ" = (
+/obj/structure/grille,
+/obj/structure/window/fulltile,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dR" = (
+/turf/open/indestructible/cobble,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dS" = (
+/obj/structure/grille,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dT" = (
+/obj/structure/barricade/wooden/crude,
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dU" = (
+/obj/machinery/vending/autodrobe/all_access,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dV" = (
+/obj/machinery/vending/clothing,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dW" = (
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dX" = (
+/obj/structure/grille/broken,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dY" = (
+/obj/structure/girder,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dZ" = (
+/obj/structure/table/wood,
+/turf/open/indestructible/cobble,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ea" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eb" = (
+/obj/structure/window/fulltile,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"ec" = (
+/obj/structure/grille,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"ed" = (
+/obj/structure/window/fulltile,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ee" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ef" = (
+/obj/structure/spacevine,
+/obj/item/circuitboard/machine/chem_master,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eg" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"eh" = (
+/turf/closed/wall,
+/area/lavaland/surface/outdoors/unexplored)
+"ei" = (
+/obj/structure/grille/broken,
+/obj/structure/window/fulltile,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"ej" = (
+/obj/structure/fence/corner{
+	icon_state = "corner";
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ek" = (
+/obj/structure/fence/corner{
+	icon_state = "corner";
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"el" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"em" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/vending/tool,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"en" = (
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/window/fulltile,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eo" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ep" = (
+/obj/structure/closet/crate/trashcart,
+/obj/item/circuitboard/computer/communications,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eq" = (
+/obj/structure/spacevine,
+/obj/structure/frame/machine,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"er" = (
+/obj/structure/spacevine,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"es" = (
+/obj/structure/spacevine,
+/obj/structure/frame/machine,
+/mob/living/simple_animal/hostile/venus_human_trap,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"et" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/item/stack/sheet/glass/five,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eu" = (
+/obj/structure/sink/puddle,
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ev" = (
+/obj/item/circuitboard/machine/destructive_analyzer,
+/obj/structure/table,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ew" = (
+/obj/structure/frame/machine,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ex" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ey" = (
+/obj/structure/frame/machine,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ez" = (
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eA" = (
+/obj/item/reagent_containers/glass/beaker/sulphuric,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eB" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 0;
+	pixel_y = 0;
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 0;
+	pixel_y = 0;
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/multitool{
+	pixel_x = 4
+	},
+/obj/item/multitool{
+	pixel_x = 4
+	},
+/obj/item/flashlight{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eC" = (
+/obj/item/circuitboard/machine/circuit_imprinter,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eD" = (
+/obj/structure/closet,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eE" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eF" = (
+/obj/structure/closet,
+/obj/item/circuitboard/machine/circuit_imprinter/department,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eG" = (
+/obj/structure/spacevine,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eH" = (
+/obj/machinery/computer/rdconsole/core{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eI" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eJ" = (
+/obj/structure/frame/machine,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eK" = (
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eL" = (
+/obj/structure/mineral_door/woodrustic,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eM" = (
+/obj/structure/barricade/wooden,
+/obj/structure/window/fulltile,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eN" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eO" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 18;
+	id = "emergency_home";
+	name = "DeltaStation emergency evac bay";
+	width = 30
+	},
+/turf/open/floor/plating/snow,
+/area/lavaland/surface/outdoors/unexplored)
+"eP" = (
+/obj/structure/table/wood,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eQ" = (
+/turf/closed/wall/mineral/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eR" = (
+/obj/effect/decal/cleanable/blood/splats,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eS" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/spider/stickyweb,
+/turf/closed/wall/mineral/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eT" = (
+/obj/structure/barricade/wooden/crude,
+/obj/structure/window/fulltile,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eU" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eV" = (
+/obj/machinery/door/airlock,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eW" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"eX" = (
+/turf/closed/indestructible/rock,
+/area/lavaland/surface/outdoors/unexplored)
+"eY" = (
+/obj/item/circuitboard/machine/microwave{
+	step_x = 31
+	},
+/turf/closed/wall/mineral/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"eZ" = (
+/obj/structure/table/wood,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fa" = (
+/obj/structure/kitchenspike,
+/obj/effect/decal/cleanable/blood/splats,
+/obj/effect/decal/cleanable/blood/splats,
+/obj/effect/rune/apocalypse,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fc" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fd" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fe" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ff" = (
+/obj/item/clothing/neck/bmantlet,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fg" = (
+/obj/structure/rack,
+/obj/item/storage/backpack/scabbard,
+/obj/item/storage/backpack/scabbard,
+/obj/item/clothing/suit/ironarmor,
+/obj/item/clothing/shoes/ironboots,
+/obj/item/clothing/head/irongalea,
+/obj/item/clothing/gloves/irongauntlets,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fh" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/fence{
+	icon_state = "straight";
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fi" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fj" = (
+/obj/structure/window/fulltile,
+/obj/structure/grille,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/fence,
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fl" = (
+/obj/structure/spacevine,
+/obj/machinery/shower,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fm" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fn" = (
+/obj/structure/table/reinforced/brass,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fo" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fp" = (
+/obj/structure/filingcabinet/chestdrawer/wheeled,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fq" = (
+/obj/structure/chair/wood/normal{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fr" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/punji_sticks,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fs" = (
+/obj/structure/grille,
+/obj/structure/grille,
+/obj/structure/grille,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ft" = (
+/obj/structure/fence,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fu" = (
+/obj/structure/fence{
+	icon_state = "straight";
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fv" = (
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fw" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fx" = (
+/obj/structure/fence/door{
+	icon_state = "door_closed";
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fy" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fz" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fA" = (
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fB" = (
+/obj/structure/table/wood,
+/obj/item/circuitboard/machine/autolathe{
+	step_x = 1;
+	step_y = 1
+	},
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fC" = (
+/obj/structure/table/wood,
+/obj/structure/spider/cocoon,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fD" = (
+/obj/machinery/requests_console{
+	department = "Cargo Bay";
+	departmentType = 2;
+	pixel_x = -30
+	},
+/obj/structure/table,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fE" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fF" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fG" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fH" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fI" = (
+/obj/effect/decal/cleanable/ash/large,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fJ" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fK" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fL" = (
+/obj/structure/barricade/wooden/crude,
+/obj/structure/table/wood,
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fM" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "tracks";
+	dir = 6
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fN" = (
+/obj/machinery/power/smes,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fO" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/vending/assist,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -5;
+	pixel_y = 30
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fP" = (
+/obj/structure/spacevine,
+/obj/structure/chair/office/dark,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fQ" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fR" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fS" = (
+/obj/structure/closet/cabinet,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fT" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/mob/living/simple_animal/hostile/poison/giant_spider/tarantula,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fU" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fV" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fW" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/bed,
+/obj/structure/spider/cocoon,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"fX" = (
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/lavaland/surface/outdoors/unexplored)
+"fY" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/structure/curtain{
+	alpha = 240;
+	color = "#454545";
+	icon_state = "closed";
+	open = 0
+	},
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"fZ" = (
+/obj/item/stack/sheet/glass/five,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ga" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"gb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/item/stack/sheet/glass/five,
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"gc" = (
+/obj/item/stack/sheet/glass/five,
+/turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"gd" = (
+/obj/structure/bed,
+/turf/open/floor/wood,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ge" = (
+/obj/structure/fence/corner{
+	icon_state = "corner";
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"gf" = (
+/obj/structure/fence{
+	icon_state = "straight";
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"gg" = (
+/obj/structure/fence/door,
+/turf/open/floor/plating/asteroid{
+	name = "sand"
+	},
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 
 (1,1,1) = {"
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 "}
 (2,1,1) = {"
+eX
 ay
 ay
 ay
@@ -1949,7 +2949,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -2061,9 +3060,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (3,1,1) = {"
+eX
 ay
 ay
 ay
@@ -2200,7 +3200,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 ay
 ay
@@ -2318,9 +3317,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (4,1,1) = {"
+eX
 ay
 ay
 ay
@@ -2456,7 +3456,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -2575,9 +3574,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (5,1,1) = {"
+eX
 ay
 ay
 ay
@@ -2713,7 +3713,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -2832,9 +3831,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (6,1,1) = {"
+eX
 ay
 ay
 ay
@@ -2971,7 +3971,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -3089,9 +4088,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (7,1,1) = {"
+eX
 ay
 ay
 ay
@@ -3227,7 +4227,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -3346,9 +4345,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (8,1,1) = {"
+eX
 ay
 ay
 ay
@@ -3485,7 +4485,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -3603,9 +4602,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (9,1,1) = {"
+eX
 ay
 ay
 ay
@@ -3741,7 +4741,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -3860,9 +4859,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (10,1,1) = {"
+eX
 ay
 ay
 ay
@@ -3997,7 +4997,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -4117,9 +5116,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (11,1,1) = {"
+eX
 ay
 ay
 ay
@@ -4254,7 +5254,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -4374,9 +5373,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (12,1,1) = {"
+eX
 ay
 ay
 ay
@@ -4512,7 +5512,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -4631,9 +5630,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (13,1,1) = {"
+eX
 ay
 ay
 ay
@@ -4769,7 +5769,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -4888,9 +5887,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (14,1,1) = {"
+eX
 ay
 ay
 ay
@@ -5026,7 +6026,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -5145,9 +6144,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (15,1,1) = {"
+eX
 ay
 ay
 ay
@@ -5283,7 +6283,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -5402,9 +6401,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (16,1,1) = {"
+eX
 ay
 ay
 ay
@@ -5540,7 +6540,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -5659,9 +6658,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (17,1,1) = {"
+eX
 ay
 ay
 ay
@@ -5797,7 +6797,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -5916,9 +6915,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (18,1,1) = {"
+eX
 ay
 ay
 ay
@@ -6054,7 +7054,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -6173,9 +7172,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (19,1,1) = {"
+eX
 ay
 ay
 ay
@@ -6311,7 +7311,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -6430,9 +7429,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (20,1,1) = {"
+eX
 ay
 ay
 ay
@@ -6568,7 +7568,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -6687,9 +7686,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (21,1,1) = {"
+eX
 ay
 ay
 ay
@@ -6824,7 +7824,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -6944,9 +7943,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (22,1,1) = {"
+eX
 ay
 ay
 ay
@@ -7081,7 +8081,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -7201,9 +8200,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (23,1,1) = {"
+eX
 ay
 ay
 ay
@@ -7338,7 +8338,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -7458,9 +8457,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (24,1,1) = {"
+eX
 ay
 ay
 ay
@@ -7595,7 +8595,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -7715,9 +8714,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (25,1,1) = {"
+eX
 ay
 ay
 ay
@@ -7852,7 +8852,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -7972,9 +8971,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (26,1,1) = {"
+eX
 ay
 ay
 ay
@@ -8109,7 +9109,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -8229,9 +9228,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (27,1,1) = {"
+eX
 ay
 ay
 ay
@@ -8366,7 +9366,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -8486,10 +9485,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (28,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -8743,10 +9742,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (29,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -9000,10 +9999,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (30,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -9257,10 +10256,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (31,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -9514,10 +10513,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (32,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -9771,9 +10770,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (33,1,1) = {"
+eX
 ay
 ay
 ay
@@ -9907,7 +10907,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -10028,9 +11027,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (34,1,1) = {"
+eX
 ay
 ay
 ay
@@ -10164,7 +11164,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -10285,9 +11284,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (35,1,1) = {"
+eX
 ay
 ay
 ay
@@ -10421,7 +11421,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -10542,9 +11541,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (36,1,1) = {"
+eX
 ay
 ay
 ay
@@ -10678,7 +11678,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -10799,9 +11798,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (37,1,1) = {"
+eX
 ay
 ay
 ay
@@ -10934,7 +11934,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -11056,9 +12055,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (38,1,1) = {"
+eX
 ay
 ay
 ay
@@ -11191,7 +12191,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -11313,9 +12312,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (39,1,1) = {"
+eX
 ay
 ay
 ay
@@ -11448,7 +12448,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -11570,9 +12569,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (40,1,1) = {"
+eX
 ay
 ay
 ay
@@ -11705,7 +12705,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -11827,9 +12826,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (41,1,1) = {"
+eX
 ay
 ay
 ay
@@ -11962,7 +12962,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -12084,9 +13083,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (42,1,1) = {"
+eX
 ay
 ay
 ay
@@ -12217,7 +13217,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -12341,9 +13340,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (43,1,1) = {"
+eX
 ay
 ay
 ay
@@ -12473,7 +13473,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -12598,9 +13597,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (44,1,1) = {"
+eX
 ay
 ay
 ay
@@ -12732,7 +13732,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -12855,9 +13854,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (45,1,1) = {"
+eX
 ay
 ay
 ay
@@ -12990,7 +13990,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -13112,9 +14111,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (46,1,1) = {"
+eX
 ay
 ay
 ay
@@ -13245,7 +14245,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -13369,9 +14368,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (47,1,1) = {"
+eX
 ay
 ay
 ay
@@ -13502,7 +14502,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -13626,9 +14625,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (48,1,1) = {"
+eX
 ay
 ay
 ay
@@ -13758,7 +14758,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -13883,9 +14882,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (49,1,1) = {"
+eX
 ay
 ay
 ay
@@ -14015,7 +15015,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -14140,9 +15139,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (50,1,1) = {"
+eX
 ay
 ay
 ay
@@ -14272,7 +15272,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -14397,9 +15396,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (51,1,1) = {"
+eX
 ay
 ay
 ay
@@ -14529,7 +15529,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -14654,9 +15653,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (52,1,1) = {"
+eX
 ay
 ay
 ay
@@ -14786,7 +15786,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -14911,9 +15910,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (53,1,1) = {"
+eX
 ay
 ay
 ay
@@ -15043,7 +16043,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -15168,9 +16167,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (54,1,1) = {"
+eX
 ay
 ay
 ay
@@ -15300,7 +16300,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -15425,9 +16424,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (55,1,1) = {"
+eX
 ay
 ay
 ay
@@ -15557,7 +16557,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -15682,9 +16681,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (56,1,1) = {"
+eX
 ay
 ay
 ay
@@ -15814,7 +16814,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -15939,9 +16938,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (57,1,1) = {"
+eX
 ay
 ay
 ay
@@ -16071,7 +17071,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -16196,9 +17195,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (58,1,1) = {"
+eX
 ay
 ay
 ay
@@ -16328,7 +17328,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -16453,9 +17452,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (59,1,1) = {"
+eX
 ay
 ay
 ay
@@ -16585,7 +17585,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -16710,9 +17709,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (60,1,1) = {"
+eX
 ay
 ay
 ay
@@ -16843,7 +17843,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -16967,9 +17966,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (61,1,1) = {"
+eX
 ay
 ay
 ay
@@ -17101,9 +18101,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
 aa
 aa
 aa
@@ -17204,6 +18201,8 @@ aa
 aa
 aa
 aa
+ay
+ay
 aa
 aa
 aa
@@ -17224,9 +18223,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (62,1,1) = {"
+eX
 ay
 ay
 ay
@@ -17359,14 +18359,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -17420,6 +18412,10 @@ aa
 aa
 aa
 aa
+by
+by
+eY
+by
 aa
 aa
 aa
@@ -17460,8 +18456,11 @@ aa
 aa
 aa
 aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -17481,9 +18480,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (63,1,1) = {"
+eX
 ay
 ay
 ay
@@ -17616,17 +18616,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -17674,6 +18663,16 @@ aa
 aa
 aa
 aa
+by
+by
+eM
+by
+by
+by
+by
+eZ
+fB
+by
 aa
 aa
 aa
@@ -17713,11 +18712,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -17738,9 +18737,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (64,1,1) = {"
+eX
 ay
 ay
 ay
@@ -17873,19 +18873,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -17933,6 +18920,16 @@ aa
 aa
 aa
 aa
+by
+fQ
+eN
+dw
+bC
+eN
+fc
+fT
+fC
+by
 aa
 aa
 aa
@@ -17971,11 +18968,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -17995,9 +18994,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (65,1,1) = {"
+eX
 ay
 ay
 ay
@@ -18132,22 +19132,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -18188,8 +19172,21 @@ aa
 aa
 aa
 aa
+bp
+bp
+bp
 aa
 aa
+en
+eN
+eN
+eZ
+bC
+bC
+by
+by
+by
+by
 aa
 aa
 aa
@@ -18227,13 +19224,15 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -18252,9 +19251,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (66,1,1) = {"
+eX
 ay
 ay
 ay
@@ -18390,19 +19390,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -18441,7 +19428,22 @@ aa
 aa
 aa
 aa
+bp
+bp
+bp
+bp
+bp
 aa
+eK
+eN
+eN
+eP
+dw
+bC
+fy
+fU
+eN
+eT
 aa
 aa
 aa
@@ -18481,14 +19483,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -18509,9 +19508,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (67,1,1) = {"
+eX
 ay
 ay
 ay
@@ -18647,17 +19647,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -18696,7 +19685,22 @@ aa
 aa
 aa
 aa
+bp
+bB
+bN
+bB
+bp
 aa
+by
+eN
+bC
+bC
+bC
+eN
+by
+fV
+fW
+by
 aa
 aa
 aa
@@ -18735,15 +19739,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
 aa
+ay
 aa
 aa
 aa
@@ -18766,9 +19765,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (68,1,1) = {"
+eX
 ay
 ay
 ay
@@ -18905,15 +19905,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -18950,6 +19941,23 @@ aa
 aa
 aa
 aa
+bp
+bN
+eA
+eC
+aG
+bB
+bp
+by
+by
+bC
+bC
+bC
+eN
+by
+eZ
+by
+by
 aa
 aa
 aa
@@ -19014,18 +20022,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (69,1,1) = {"
+eX
 ay
 ay
 ay
@@ -19163,14 +20163,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -19206,7 +20198,22 @@ aa
 aa
 aa
 aa
+bp
+el
+dO
+eU
+bB
+bN
+bp
 aa
+by
+fR
+dw
+eZ
+eZ
+by
+by
+by
 aa
 aa
 aa
@@ -19272,17 +20279,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (70,1,1) = {"
+eX
 ay
 ay
 ay
@@ -19418,13 +20418,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -19462,7 +20455,20 @@ aa
 aa
 aa
 aa
+bN
+bN
+dP
+bk
+bu
+bN
+bB
 aa
+by
+eS
+by
+eT
+by
+by
 aa
 aa
 aa
@@ -19530,16 +20536,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (71,1,1) = {"
+eX
 ay
 ay
 ay
@@ -19674,10 +20674,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
 aa
 aa
 aa
@@ -19716,6 +20712,13 @@ aa
 aa
 aa
 aa
+bB
+ev
+ee
+bk
+bk
+eF
+bN
 aa
 aa
 aa
@@ -19790,13 +20793,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (72,1,1) = {"
+eX
 ay
 ay
 ay
@@ -19931,10 +20931,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
 aa
 aa
 aa
@@ -19973,6 +20969,13 @@ aa
 aa
 aa
 aa
+bB
+ew
+eH
+bk
+bk
+bk
+bN
 aa
 aa
 aa
@@ -20047,13 +21050,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (73,1,1) = {"
+eX
 ay
 ay
 ay
@@ -20188,7 +21188,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -20213,22 +21212,6 @@ aa
 aa
 aa
 aa
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
 aa
 aa
 aa
@@ -20243,6 +21226,13 @@ aa
 aa
 aa
 aa
+bN
+ex
+eI
+bk
+bk
+eW
+cd
 aa
 aa
 aa
@@ -20308,10 +21298,19 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (74,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -20470,22 +21469,27 @@ aa
 aa
 aa
 aa
-bp
+aa
 ab
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
+fk
+fk
+fk
+fk
+ft
+ft
+ft
+ft
+ft
+ft
+ft
 bT
-az
-bp
+bN
+ey
+eJ
+bk
+bk
+eD
+bX
 aa
 aa
 aa
@@ -20560,15 +21564,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (75,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -20727,8 +21726,8 @@ aa
 aa
 aa
 aa
-bp
-ad
+aa
+fh
 al
 al
 al
@@ -20741,8 +21740,13 @@ al
 al
 al
 al
-bf
-bp
+bB
+el
+bu
+bk
+bu
+bB
+eh
 aa
 aa
 aa
@@ -20817,15 +21821,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (76,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -20984,30 +21983,30 @@ aa
 aa
 aa
 aa
-bp
-ad
+aa
+fh
 al
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 al
-bf
+ac
+bB
+bN
+eV
+bB
+bN
 bp
 bp
 bp
 bp
-bp
-bp
-bp
-bp
-bp
 aa
 aa
 aa
@@ -21079,10 +22078,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (77,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -21241,26 +22240,26 @@ aa
 aa
 aa
 aa
-bp
+aa
 ad
 al
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 al
-bS
-an
-an
-an
-an
-an
+ej
+bB
+bu
+bk
+bu
+bN
 aL
 an
 ab
@@ -21336,10 +22335,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (78,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -21498,24 +22497,24 @@ aa
 aa
 aa
 aa
-bp
+aa
 ad
 al
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 al
-bf
+ek
 bp
 bp
-bp
+bu
 bp
 bp
 bk
@@ -21593,10 +22592,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (79,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -21755,33 +22754,33 @@ aa
 aa
 aa
 aa
-bp
+aa
 ad
 al
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 al
 bf
-bl
+eo
 bu
 bp
 bp
 bp
-bu
+bp
 aW
 bN
 bF
 bG
 bI
-bL
+aH
 bN
 bp
 aa
@@ -21850,10 +22849,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (80,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -22012,33 +23011,33 @@ aa
 aa
 aa
 aa
-bp
+aa
 ad
 al
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
 al
 bf
-bl
+ep
 bu
-bq
+aD
 bu
 bu
-bu
+bp
 bk
 ap
-aD
-aM
-aM
-bP
+aF
+bu
+bu
+bw
 bN
 bp
 aa
@@ -22107,10 +23106,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (81,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -22269,7 +23268,7 @@ aa
 aa
 aa
 aa
-bp
+aa
 ad
 al
 al
@@ -22285,17 +23284,17 @@ al
 al
 bz
 bE
-bz
+bl
 bE
 bE
-bp
+eu
 bu
 aW
 bB
 bH
 bJ
 bM
-bR
+bq
 bN
 bp
 aa
@@ -22364,10 +23363,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (82,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -22526,14 +23525,14 @@ aa
 aa
 aa
 aa
-bp
+aa
 ac
 am
 am
 am
 am
-bk
-as
+am
+am
 at
 am
 am
@@ -22541,8 +23540,8 @@ am
 am
 bz
 bE
-ba
-bg
+em
+eB
 bm
 bE
 bz
@@ -22621,10 +23620,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (83,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -22783,21 +23782,21 @@ aa
 aa
 aa
 aa
-bp
+aa
 ae
 af
+af
+af
+af
+af
 ab
-af
-af
 ax
-af
-aL
 af
 af
 af
 aN
 bE
-aK
+fD
 aM
 aM
 aM
@@ -22805,7 +23804,7 @@ bt
 bE
 bA
 bp
-ac
+aw
 bp
 bp
 bp
@@ -22878,10 +23877,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (84,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -23042,12 +24041,12 @@ aa
 aa
 aa
 aa
-bp
-ac
-bu
-bu
-bu
-au
+aa
+aa
+aa
+aa
+aa
+ae
 bu
 bu
 bu
@@ -23061,10 +24060,17 @@ aM
 ah
 bo
 bk
-bk
-aX
 bp
+bp
+bp
+by
 aa
+by
+dM
+by
+by
+ec
+by
 aa
 aa
 aa
@@ -23128,17 +24134,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (85,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -23299,17 +24298,17 @@ aa
 aa
 aa
 aa
-bp
-ac
-ak
-ak
-ak
-bu
+aa
+aa
+aa
+aa
+aa
+ab
 av
 av
 av
 bu
-bu
+au
 bE
 aR
 aM
@@ -23319,10 +24318,22 @@ bv
 bz
 bA
 bp
-ac
+bp
 bp
 aa
+cO
+by
+dp
+dw
+dN
+bC
+by
+by
 aa
+by
+dA
+by
+by
 aa
 aa
 aa
@@ -23380,22 +24391,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (86,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -23556,12 +24555,12 @@ aa
 aa
 aa
 aa
-bp
+aa
+aa
+aa
+aa
+aa
 ac
-ar
-ar
-ar
-bu
 ar
 ar
 ar
@@ -23569,16 +24568,29 @@ bu
 bu
 bE
 bz
-bb
+fO
 bk
 bn
 bE
 bE
 bu
 bp
-ac
 bp
+bp
+bC
+bC
+dT
+dq
+bC
+dW
+cN
+dw
+dQ
 aa
+by
+fI
+dw
+by
 aa
 aa
 aa
@@ -23636,23 +24648,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (87,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -23813,12 +24812,12 @@ aa
 aa
 aa
 aa
-bp
-ae
-an
+aa
+aa
+aa
 ab
 an
-an
+ae
 an
 bE
 an
@@ -23833,9 +24832,24 @@ bE
 bE
 bu
 bp
-ac
+bp
 bp
 aa
+cR
+by
+fS
+fA
+bC
+bC
+dC
+by
+dE
+dY
+dG
+dI
+by
+eb
+by
 aa
 aa
 aa
@@ -23891,25 +24905,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (88,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -24071,28 +25070,43 @@ aa
 aa
 aa
 aa
-bp
-bp
+aa
+aa
 ac
 aA
 aE
-aJ
+aG
 aO
-aA
-aE
+bj
+et
 aJ
 aV
-aU
-bc
-bj
+fN
+ga
+gb
 br
-bu
+dU
 bE
-bu
 bp
-ac
 bp
+ab
+bp
+by
 aa
+by
+by
+eE
+by
+cO
+by
+by
+eE
+by
+by
+ea
+by
+dJ
+by
 aa
 aa
 aa
@@ -24148,25 +25162,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (89,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -24331,29 +25330,40 @@ aa
 bp
 ab
 aw
-aA
-aF
-aJ
+aG
+aq
+aG
 bp
-aA
-aF
-aJ
+bj
+aG
+aG
 bE
 aZ
 bu
 bu
-bu
-bw
-bz
-bu
+gc
+gc
+bl
 bp
-ac
+bp
+aw
 bp
 aa
 aa
 aa
 aa
 aa
+dS
+fE
+fF
+fG
+fG
+fH
+fJ
+bC
+bC
+bC
+ei
 aa
 aa
 aa
@@ -24409,21 +25419,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (90,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -24587,7 +25586,7 @@ aa
 aa
 bp
 ac
-aq
+ak
 aB
 aG
 aG
@@ -24597,19 +25596,31 @@ aG
 aB
 bd
 bQ
-bc
 bi
 bs
 aj
+dV
 bE
 bu
 bp
-ac
+ab
 bp
 aa
 aa
 aa
 aa
+by
+by
+bC
+by
+bC
+eg
+dW
+fK
+by
+by
+eE
+by
 aa
 aa
 aa
@@ -24665,22 +25676,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (91,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -24846,11 +25845,11 @@ bp
 ae
 az
 aA
-aH
-aJ
+aG
+bj
 bp
-aA
-aH
+aG
+as
 aJ
 bz
 bz
@@ -24867,6 +25866,15 @@ aa
 aa
 aa
 aa
+by
+dz
+dB
+by
+ea
+by
+by
+fL
+by
 aa
 aa
 aa
@@ -24925,19 +25933,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+eX
 "}
 (92,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -25099,19 +26098,19 @@ aa
 aa
 aa
 aa
-bp
-bp
+aa
+aa
 ac
 aA
 aI
-aJ
+aG
 aQ
-aA
-aI
-aJ
+bj
+bj
+fZ
 ac
-bp
-bp
+bk
+bk
 aX
 bk
 bu
@@ -25120,17 +26119,19 @@ bk
 bp
 ac
 bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+aa
+aa
+aa
+aa
+by
+dv
+bC
+by
+fX
+by
+fU
+fK
+by
 aa
 aa
 aa
@@ -25189,12 +26190,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-ay
+eX
 "}
 (93,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -25357,7 +26356,7 @@ aa
 aa
 aa
 aa
-bp
+aa
 ae
 an
 an
@@ -25367,31 +26366,29 @@ an
 an
 an
 aw
-bp
+bu
 bp
 bE
 ca
 bT
-bT
 ao
 bT
-cd
-bT
-bT
-bT
-bT
-bX
-bT
-bT
-bT
-bT
-cc
+aN
 bz
 bp
 aa
 aa
 aa
 aa
+by
+dX
+by
+by
+dY
+by
+dG
+fM
+by
 aa
 aa
 aa
@@ -25448,10 +26445,12 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+eX
 "}
 (94,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -25614,36 +26613,25 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
+bu
+bu
+bu
+bb
+fz
+bu
 bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-ad
+ac
+cb
 al
 al
 al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-bf
+dx
+ac
 bp
 aa
 aa
@@ -25654,6 +26642,10 @@ aa
 aa
 aa
 aa
+by
+dY
+dQ
+by
 aa
 aa
 aa
@@ -25705,10 +26697,17 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (95,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -25877,28 +26876,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+bB
+ba
+bL
+bN
+bp
 bp
 ad
 al
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+aG
+aG
+aG
 al
 bf
 bp
@@ -25962,10 +26950,21 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (96,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -26133,29 +27132,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-bp
-ad
-ai
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+bB
+be
+er
+ez
+bN
+bN
+bB
+bE
+al
+aG
+aG
+aG
 al
 bf
 bp
@@ -26219,10 +27207,21 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (97,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -26390,29 +27389,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-bp
-ad
+bN
+er
+aK
+eG
+bB
+bS
+eq
+bB
 al
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+aG
+aG
+aG
 al
 bf
 bp
@@ -26476,10 +27464,21 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (98,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -26646,30 +27645,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-bp
-ad
+aT
+bN
+fl
+er
+bP
+bR
+bP
+fP
+bN
 al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
+aG
+aG
+aG
 al
 bf
 bp
@@ -26733,10 +27721,21 @@ aa
 aa
 aa
 aa
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (99,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -26902,33 +27901,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-bp
-bE
-cb
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-be
-bE
+aT
+aT
+bN
+er
+er
+er
+bB
+ef
+es
+cd
+cc
+al
+ai
+al
+dy
+ac
 bp
 aa
 aa
@@ -26952,6 +27940,17 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 by
 by
 by
@@ -26990,10 +27989,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (100,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -27157,36 +28156,36 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aT
+aT
+aT
+aT
+ba
+bc
+aU
+bg
+bB
+bB
+bB
+bE
+ca
+aC
+aC
+aC
+aN
+bE
 bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -27247,10 +28246,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (101,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -27405,24 +28404,24 @@ aa
 aa
 aa
 aa
+ay
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aT
+aT
+aT
+aT
+eQ
+eQ
+eQ
+eQ
+fu
+fx
+ge
+aT
+bB
+bl
+bN
+bN
 aa
 aa
 aa
@@ -27504,10 +28503,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (102,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -27661,24 +28660,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+aT
+aT
+aT
+aT
+eQ
+eQ
+fn
+fp
+eQ
+fv
+fv
+gf
+aT
+aT
+aT
+aT
 aa
 aa
 aa
@@ -27761,10 +28760,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (103,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -27917,24 +28916,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+aT
+aT
+ay
+aT
+eQ
+eQ
+dH
+dH
+fq
+fj
+fv
+fv
+gf
+aT
+aT
+aT
 aa
 aa
 aa
@@ -28018,10 +29017,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (104,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -28174,22 +29173,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+aT
+aT
+aT
+ay
+ay
+eQ
+eQ
+fi
+eQ
+fn
+eQ
+fv
+fv
+gf
+aT
 aa
 aa
 aa
@@ -28275,10 +29274,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (105,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -28431,22 +29430,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+aT
+ay
+ay
+ay
+eQ
+dH
+fd
+dH
+dH
+fr
+fv
+fv
+gg
+aT
 aa
 aa
 aa
@@ -28532,9 +29531,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (106,1,1) = {"
+eX
 ay
 ay
 ay
@@ -28660,17 +29660,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -28698,12 +29687,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+eQ
+ay
+eQ
+eQ
+fi
+eQ
+fj
+eQ
+fv
+fv
+gf
+aT
 aa
 aa
 aa
@@ -28789,9 +29788,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (107,1,1) = {"
+eX
 ay
 ay
 ay
@@ -28913,17 +29913,6 @@ ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -28954,13 +29943,23 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+eQ
+ay
+eQ
+dH
+dH
+fi
+dH
+dH
+fo
+eQ
+eQ
+eQ
+eQ
+aT
 aa
 aa
 aa
@@ -29046,10 +30045,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (108,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -29201,112 +30200,112 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+eR
+fe
+eQ
+dH
+ag
+eQ
+fm
+dH
+dH
+fi
+fm
+fY
+eQ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (109,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -29458,112 +30457,112 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+eQ
+dH
+fa
+eR
+eQ
+dH
+dH
+fj
+dH
+dH
+dH
+fs
+dH
+gd
+eQ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (110,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -29714,113 +30713,113 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+eQ
+dH
+fd
+ff
+eQ
+fg
+dH
+fj
+dH
+dH
+fd
+eQ
+eQ
+eQ
+eQ
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (111,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -29972,112 +30971,112 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+eQ
+ay
+eQ
+eQ
+fg
+fd
+eQ
+dH
+fo
+dH
+fi
+fm
+fY
+eQ
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (112,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -30230,111 +31229,111 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+eQ
+ay
+dH
+eQ
+eQ
+ay
+dH
+fs
+dH
+gd
+eQ
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (113,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -30487,111 +31486,111 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+ay
+ay
+ay
+eQ
+ay
+ay
+ay
+eQ
+fw
+eQ
+eQ
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (114,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -30746,109 +31745,109 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+aT
+aT
+aT
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (115,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -31002,18 +32001,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aT
 aT
 aT
@@ -31102,10 +32101,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (116,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -31259,17 +32258,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 aT
@@ -31359,10 +32358,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (117,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -31514,17 +32513,6 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
 ay
 ay
@@ -31537,89 +32525,100 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (118,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -31772,14 +32771,6 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
 ay
 ay
@@ -31794,89 +32785,97 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (119,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -32029,14 +33028,7 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
 aa
 ay
 ay
@@ -32052,88 +33044,95 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ay
+ay
+ay
+ay
+ay
+ay
+ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+eX
 "}
 (120,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -32289,12 +33288,12 @@ aa
 aa
 aa
 aa
+ay
 aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -32387,10 +33386,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (121,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -32644,10 +33643,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (122,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -32901,10 +33900,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (123,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -33158,10 +34157,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (124,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -33239,11 +34238,11 @@ ay
 ay
 ay
 ay
-aP
-aP
-aP
-aP
-aP
+bx
+bx
+bx
+bx
+bx
 aP
 aP
 aP
@@ -33415,10 +34414,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (125,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -33495,13 +34494,13 @@ ay
 ay
 ay
 ay
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+bx
+bx
+dZ
+dZ
+dZ
+bx
+bx
 aP
 aP
 aP
@@ -33672,10 +34671,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (126,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -33748,18 +34747,18 @@ aP
 aP
 aP
 ay
-ay
-ay
-ay
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+ag
+bx
+bx
+bx
+bx
+dR
+dR
+dR
+dR
+dR
+bx
+bx
 aP
 aP
 aP
@@ -33929,10 +34928,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (127,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -34005,18 +35004,18 @@ ay
 aP
 aP
 aP
-ay
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+bx
+dF
+dH
+bx
+dR
+dR
+dR
+dR
+dR
+dR
+dR
+bx
 aP
 aP
 aP
@@ -34186,10 +35185,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (128,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -34262,18 +35261,18 @@ aP
 aP
 aP
 aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+bx
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+eL
 aP
 aP
 aP
@@ -34443,10 +35442,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (129,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -34519,18 +35518,18 @@ aP
 aP
 aP
 aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+bx
+dH
+dH
+bx
+dR
+dR
+dR
+dR
+dR
+dR
+dR
+bx
 aP
 aP
 aP
@@ -34700,10 +35699,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (130,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -34776,18 +35775,18 @@ cP
 aP
 aP
 aP
-ay
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+ag
+bx
+bx
+bx
+bx
+dR
+dR
+dR
+dR
+dR
+bx
+bx
 aP
 aP
 aP
@@ -34957,10 +35956,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (131,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -35037,13 +36036,13 @@ aP
 aP
 aP
 aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+bx
+bx
+dR
+dZ
+dR
+bx
+bx
 aP
 aP
 aP
@@ -35214,10 +36213,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (132,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -35295,11 +36294,11 @@ aP
 ay
 aP
 aP
-aP
-aP
-aP
-aP
-aP
+bx
+ed
+bx
+ed
+bx
 aP
 aP
 aP
@@ -35471,10 +36470,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (133,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -35728,10 +36727,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (134,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -35985,10 +36984,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (135,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -36242,10 +37241,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (136,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -36499,10 +37498,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (137,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -36756,10 +37755,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (138,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -37013,10 +38012,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (139,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -37270,10 +38269,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (140,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -37527,10 +38526,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (141,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -37784,10 +38783,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (142,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -38041,10 +39040,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (143,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -38298,10 +39297,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (144,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -38555,10 +39554,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (145,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -38812,10 +39811,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (146,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -39069,10 +40068,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (147,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -39326,10 +40325,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (148,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -39583,10 +40582,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (149,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -39840,10 +40839,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (150,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -40097,10 +41096,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (151,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -40354,10 +41353,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (152,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -40611,10 +41610,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (153,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -40868,10 +41867,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (154,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -41125,10 +42124,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (155,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -41382,10 +42381,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (156,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -41639,10 +42638,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (157,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -41896,10 +42895,10 @@ aa
 aa
 aa
 ay
-ay
+eX
 "}
 (158,1,1) = {"
-ay
+eX
 aT
 ay
 ay
@@ -41985,7 +42984,7 @@ aP
 aP
 aP
 aP
-aP
+eO
 aP
 aP
 aP
@@ -42153,10 +43152,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (159,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -42410,10 +43409,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (160,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -42667,10 +43666,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (161,1,1) = {"
-ay
+eX
 aT
 aT
 ay
@@ -42924,10 +43923,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (162,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -43181,10 +44180,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (163,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -43438,10 +44437,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (164,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -43695,10 +44694,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (165,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -43952,10 +44951,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (166,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -44209,10 +45208,10 @@ ay
 aT
 ay
 ay
-ay
+eX
 "}
 (167,1,1) = {"
-ay
+eX
 ay
 aT
 aT
@@ -44466,10 +45465,10 @@ aT
 aT
 ay
 ay
-ay
+eX
 "}
 (168,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -44723,10 +45722,10 @@ aT
 aT
 aT
 ay
-ay
+eX
 "}
 (169,1,1) = {"
-ay
+eX
 aT
 aT
 aT
@@ -44980,10 +45979,10 @@ aT
 aT
 aT
 ay
-ay
+eX
 "}
 (170,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -45237,10 +46236,10 @@ aT
 aT
 ay
 ay
-ay
+eX
 "}
 (171,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -45494,10 +46493,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (172,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -45751,10 +46750,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (173,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -46008,10 +47007,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (174,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -46265,10 +47264,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (175,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -46522,10 +47521,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (176,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -46779,10 +47778,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (177,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -47036,10 +48035,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (178,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -47293,10 +48292,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (179,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -47550,10 +48549,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (180,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -47807,10 +48806,10 @@ ay
 ay
 ay
 ay
-ay
+eX
 "}
 (181,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -48064,10 +49063,10 @@ aa
 aa
 aa
 ay
-ay
+eX
 "}
 (182,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -48321,10 +49320,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (183,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -48578,10 +49577,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (184,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -48835,10 +49834,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (185,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -49092,10 +50091,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (186,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -49349,10 +50348,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (187,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -49606,10 +50605,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (188,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -49863,10 +50862,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (189,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -50120,10 +51119,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (190,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -50377,10 +51376,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (191,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -50634,10 +51633,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (192,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -50891,10 +51890,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (193,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -51148,10 +52147,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (194,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -51405,10 +52404,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (195,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -51662,10 +52661,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (196,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -51919,10 +52918,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (197,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -52176,10 +53175,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (198,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -52433,10 +53432,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (199,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -52690,10 +53689,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (200,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -52864,15 +53863,15 @@ aa
 aa
 aa
 aa
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
 aa
 aa
 aa
@@ -52947,10 +53946,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (201,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -53120,17 +54119,17 @@ aa
 aa
 aa
 aa
-cK
-cK
-cj
-cm
-df
-do
-cx
-cj
-cm
-cK
-cK
+bx
+bx
+ch
+ck
+cs
+cy
+cA
+ch
+ck
+bx
+bx
 aa
 aa
 aa
@@ -53204,10 +54203,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (202,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -53376,23 +54375,23 @@ aa
 aa
 aa
 aa
-bC
-cK
-bW
-ck
-cn
-cs
+dH
+bx
+bU
 ci
-de
-cy
-cn
+cl
+ct
+cf
+cg
 cC
-cK
-cK
-cK
-cK
-cK
-cK
+cl
+cG
+bx
+bx
+bx
+bx
+bx
+bx
 aa
 aa
 aa
@@ -53461,10 +54460,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (203,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -53632,25 +54631,25 @@ aa
 aa
 aa
 aa
-cK
-cK
-cK
+bx
+bx
+bx
+bW
+bx
+cm
 bY
-cK
-bZ
-bZ
-cK
-bZ
-cz
-cK
-ch
-cF
-cK
-cg
-cg
-cg
-cK
-cK
+bx
+cm
+cD
+bx
+ce
+cJ
+bx
+de
+de
+de
+bx
+bx
 aa
 aa
 aa
@@ -53718,10 +54717,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (204,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -53889,25 +54888,25 @@ aa
 aa
 aa
 aa
-bC
-bC
-by
-bZ
-bZ
-ch
-bZ
-ch
-bZ
-cA
-bZ
-ch
-by
-cK
-cH
-cI
-cI
-cI
-cK
+dH
+dH
+eQ
+bY
+bY
+cn
+bY
+ce
+cB
+cE
+bY
+ce
+eQ
+bx
+df
+dn
+dn
+dn
+bx
 aa
 aa
 aa
@@ -53975,10 +54974,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (205,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -54146,25 +55145,25 @@ aa
 aa
 aa
 aa
-bC
-bU
+dH
 bD
-ce
-ce
-co
-ct
-ce
-ce
-ct
-co
-cD
-cf
 bO
-cI
-cI
-cL
-cM
+bZ
+bZ
+co
+cu
+bZ
+bZ
+cu
+co
+cH
 cK
+cM
+dn
+dn
+dD
+dK
+bx
 aa
 aa
 aa
@@ -54232,10 +55231,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (206,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -54403,25 +55402,25 @@ aa
 aa
 aa
 aa
-bC
-bC
-by
-ch
-bZ
-bZ
-bZ
-bZ
-bZ
-ch
-ch
-bZ
-by
-cK
-cI
-cI
-cI
-cI
-cK
+dH
+dH
+eQ
+ce
+bY
+cm
+bY
+bY
+cm
+ce
+ce
+bY
+eQ
+bx
+dn
+dn
+dn
+dn
+bx
 aa
 aa
 aa
@@ -54489,10 +55488,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (207,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -54660,25 +55659,25 @@ aa
 aa
 aa
 aa
-cK
-cK
-cK
-ci
-cK
+bx
+bx
+bx
+cf
+bx
 cp
-cu
-cK
-ch
-bZ
-cK
-cE
-cG
-cK
-cJ
-cg
-cg
-cK
-cK
+cw
+bx
+cn
+bY
+bx
+cI
+cL
+bx
+do
+de
+de
+bx
+bx
 aa
 aa
 aa
@@ -54746,10 +55745,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (208,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -54918,23 +55917,23 @@ aa
 aa
 aa
 aa
-bC
-cK
-de
-cj
+dH
+bx
+cg
+ch
 cq
-ci
-ci
-ci
-cj
-cm
-ci
-cK
-cK
-cK
-cK
-cK
-cK
+cf
+cf
+cf
+ch
+ck
+cf
+bx
+bx
+bx
+bx
+bx
+bx
 aa
 aa
 aa
@@ -55003,10 +56002,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (209,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -55176,17 +56175,17 @@ aa
 aa
 aa
 aa
-cK
-cK
+bx
+bx
+cj
 cl
-cn
-dn
-cw
-do
-cB
-cn
-cK
-cK
+cx
+cz
+cy
+cF
+cl
+bx
+bx
 aa
 aa
 aa
@@ -55260,10 +56259,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (210,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -55434,15 +56433,15 @@ aa
 aa
 aa
 aa
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
 aa
 aa
 aa
@@ -55517,10 +56516,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (211,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -55774,10 +56773,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (212,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -56031,10 +57030,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (213,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -56288,10 +57287,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (214,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -56545,10 +57544,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (215,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -56802,10 +57801,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (216,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -57059,10 +58058,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (217,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -57316,10 +58315,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (218,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -57573,10 +58572,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (219,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -57830,10 +58829,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (220,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -58087,10 +59086,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (221,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -58344,10 +59343,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (222,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -58601,10 +59600,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (223,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -58858,10 +59857,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (224,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -59115,10 +60114,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (225,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -59372,10 +60371,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (226,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -59629,10 +60628,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (227,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -59886,10 +60885,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (228,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -60143,10 +61142,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (229,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -60400,10 +61399,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (230,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -60657,10 +61656,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (231,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -60914,10 +61913,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (232,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -61171,10 +62170,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (233,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -61428,10 +62427,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (234,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -61685,10 +62684,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (235,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -61942,10 +62941,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (236,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -62199,10 +63198,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (237,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -62456,10 +63455,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (238,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -62713,10 +63712,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (239,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -62970,10 +63969,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (240,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -63227,10 +64226,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (241,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -63484,10 +64483,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (242,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -63741,10 +64740,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (243,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -63998,10 +64997,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (244,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -64255,10 +65254,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (245,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -64512,10 +65511,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (246,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -64769,10 +65768,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (247,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -65026,10 +66025,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (248,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -65283,10 +66282,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (249,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -65540,10 +66539,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (250,1,1) = {"
-ay
+eX
 ay
 ay
 ay
@@ -65797,9 +66796,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (251,1,1) = {"
+eX
 ay
 ay
 ay
@@ -65904,7 +66904,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -66054,9 +67053,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (252,1,1) = {"
+eX
 ay
 ay
 ay
@@ -66161,7 +67161,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -66311,9 +67310,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (253,1,1) = {"
+eX
 ay
 ay
 ay
@@ -66418,7 +67418,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 aa
@@ -66568,9 +67567,10 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (254,1,1) = {"
+eX
 ay
 ay
 ay
@@ -66674,7 +67674,6 @@ ay
 ay
 ay
 ay
-ay
 aa
 aa
 ay
@@ -66825,262 +67824,262 @@ aa
 aa
 aa
 aa
-ay
+eX
 "}
 (255,1,1) = {"
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 "}
