@@ -1916,14 +1916,10 @@
 "eB" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
-	pixel_x = 0;
-	pixel_y = 0;
 	pixel_x = -2;
 	pixel_y = -1
 	},
 /obj/item/storage/toolbox/mechanical{
-	pixel_x = 0;
-	pixel_y = 0;
 	pixel_x = -2;
 	pixel_y = -1
 	},
@@ -2079,7 +2075,7 @@
 /area/lavaland/surface/outdoors/unexplored)
 "eY" = (
 /obj/item/circuitboard/machine/microwave{
-	step_x = 31
+	pixel_x = 31
 	},
 /turf/closed/wall/mineral/wood,
 /area/lavaland/surface/outdoors/unexplored)
@@ -2289,8 +2285,8 @@
 "fB" = (
 /obj/structure/table/wood,
 /obj/item/circuitboard/machine/autolathe{
-	step_x = 1;
-	step_y = 1
+	pixel_x = 1;
+	pixel_y = 1
 	},
 /obj/structure/spider/stickyweb,
 /turf/open/floor/wood,
