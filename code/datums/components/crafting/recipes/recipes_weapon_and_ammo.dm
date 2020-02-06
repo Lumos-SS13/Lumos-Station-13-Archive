@@ -18,6 +18,10 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/strobeshield/New()
+	..()
+	blacklist |= subtypesof(/obj/item/shield/riot/)
+
 /datum/crafting_recipe/makeshiftshield
 	name = "Makeshift Metal Shield"
 	result = /obj/item/shield/makeshift
@@ -106,6 +110,18 @@
 				/obj/item/stack/sheet/plasteel = 5)
 	tools = list(TOOL_WELDER)
 	time = 50
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+
+/datum/crafting_recipe/switchblade_ms
+	name = "Switchblade"
+	result = /obj/item/switchblade/crafted
+	reqs = list(/obj/item/weaponcrafting/stock = 1,
+				/obj/item/weaponcrafting/receiver = 1,
+				/obj/item/kitchen/knife = 1,
+				/obj/item/stack/cable_coil = 2)
+	tools = list(TOOL_WELDER)
+	time = 45
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 

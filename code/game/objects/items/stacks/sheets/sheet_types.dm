@@ -95,6 +95,9 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 	new/datum/stack_recipe("fire alarm frame", /obj/item/wallframe/firealarm, 2), \
 	new/datum/stack_recipe("extinguisher cabinet frame", /obj/item/wallframe/extinguisher_cabinet, 2), \
 	new/datum/stack_recipe("button frame", /obj/item/wallframe/button, 1), \
+	//lumos change
+	new/datum/stack_recipe("lantern hook frame", /obj/item/wallframe/lanternhook, 2), \
+	//end lumos change
 	null, \
 	new/datum/stack_recipe("iron door", /obj/structure/mineral_door/iron, 20, one_per_turf = TRUE, on_floor = TRUE), \
 	new/datum/stack_recipe("floodlight frame", /obj/structure/floodlight_frame, 5, one_per_turf = TRUE, on_floor = TRUE), \
@@ -154,6 +157,7 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 GLOBAL_LIST_INIT(plasteel_recipes, list ( \
 	new/datum/stack_recipe("AI core", /obj/structure/AIcore, 4, time = 50, one_per_turf = TRUE), \
 	new/datum/stack_recipe("bomb assembly", /obj/machinery/syndicatebomb/empty, 10, time = 50), \
+	new/datum/stack_recipe("crate", /obj/structure/closet/crate, 5, time = 90,  one_per_turf = TRUE), \
 	null, \
 	new /datum/stack_recipe_list("airlock assemblies", list( \
 		new/datum/stack_recipe("high security airlock assembly", /obj/structure/door_assembly/door_assembly_highsecurity, 6, time = 50, one_per_turf = 1, on_floor = 1), \
@@ -308,6 +312,15 @@ GLOBAL_LIST_INIT(bamboo_recipes, list ( \
 /obj/item/stack/sheet/mineral/bamboo/Initialize(mapload, new_amount, merge = TRUE)
 	recipes = GLOB.bamboo_recipes
 	return ..()
+
+/obj/item/stack/sheet/mineral/bamboo/ten
+	amount = 10
+
+/obj/item/stack/sheet/mineral/bamboo/twenty
+	amount = 20
+
+/obj/item/stack/sheet/mineral/bamboo/fifty
+	amount = 50
 
 /*
  * Cloth

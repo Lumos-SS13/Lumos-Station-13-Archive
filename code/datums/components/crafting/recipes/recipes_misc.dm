@@ -378,3 +378,13 @@
 				/obj/item/reagent_containers/food/snacks/grown/coconut = 1)
 	time = 70
 	category = CAT_MISC
+
+/datum/crafting_recipe/lamplight
+	name = "Lamp light"
+	result = /obj/item/flashlight/lamplight
+	tools = list(TOOL_WIRECUTTER)
+	reqs = list(/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/sheet/glass = 1,
+				/obj/item/stack/rods = 1
+				)
+	category = CAT_MISC
