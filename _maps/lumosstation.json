@@ -3,8 +3,7 @@
     "map_path": "map_files/Lumos",
     "map_file": "lumos.dmm",
     "shuttles": {
-	    "cargo": "cargo_box",
-	    "ferry": "ferry_fancy",
+	    "cargo": "cargo_lumos",
 	    "whiteship": "whiteship_box",
 	    "emergency": "emergency_box"
     }
