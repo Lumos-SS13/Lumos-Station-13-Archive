@@ -14,6 +14,10 @@
 /turf/open/floor/pod/dark,
 /area/shuttle/supply)
 "e" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes{
 	icon_state = "warningline";
 	dir = 9
@@ -62,6 +66,9 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/supply)
 "k" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
 /obj/effect/turf_decal/stripes{
 	icon_state = "warningline";
 	dir = 5
@@ -69,30 +76,7 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/shuttle/supply)
-"l" = (
-/obj/machinery/light/small{
-	icon_state = "bulb";
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes{
-	icon_state = "warningline";
-	dir = 8
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plating,
-/area/shuttle/supply)
 "m" = (
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plating,
-/area/shuttle/supply)
-"n" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes{
-	icon_state = "warningline";
-	dir = 4
-	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/shuttle/supply)
@@ -154,8 +138,8 @@ b
 (2,1,1) = {"
 b
 b
+c
 e
-l
 o
 q
 c
@@ -164,8 +148,8 @@ b
 (3,1,1) = {"
 b
 c
+c
 f
-m
 m
 r
 h
@@ -174,8 +158,8 @@ j
 (4,1,1) = {"
 b
 b
+c
 k
-n
 p
 s
 c
