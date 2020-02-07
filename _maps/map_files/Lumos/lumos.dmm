@@ -63,6 +63,25 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"ai" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/command{
+	name = "Telecomms Control Room";
+	req_access_txt = "19; 61"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "aj" = (
 /obj/machinery/power/solar_control{
 	icon_state = "computer";
@@ -70,6 +89,28 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ak" = (
+/obj/machinery/announcement_system,
+/obj/machinery/status_display/ai{
+	pixel_x = -32
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -128,6 +169,14 @@
 "ar" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/sepia,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"as" = (
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -460,6 +509,14 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"be" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bf" = (
 /obj/structure/fence{
 	icon_state = "straight";
@@ -667,6 +724,28 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"bx" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	name = "Station Intercom";
+	pixel_y = 24
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "by" = (
 /turf/closed/wall/mineral/wood,
 /area/lavaland/surface/outdoors/unexplored)
@@ -855,6 +934,28 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"bP" = (
+/obj/machinery/computer/message_monitor{
+	dir = 4
+	},
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/obj/item/paper/monitorkey,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -925,6 +1026,11 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"bX" = (
+/turf/open/floor/plasteel/grimy,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "bY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -963,6 +1069,12 @@
 /obj/structure/girder,
 /turf/open/floor/wood,
 /area/lavaland/surface/outdoors/unexplored)
+"cd" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/plasteel/grimy,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "ce" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
@@ -1215,6 +1327,31 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spacevine,
 /turf/open/floor/plasteel/cult,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"cK" = (
+/obj/machinery/computer/telecomms/server{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/machinery/light_switch{
+	pixel_x = 24;
+	pixel_y = -24
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
@@ -1485,6 +1622,42 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"dp" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/command{
+	name = "Telecomms Server Room";
+	req_access_txt = "61"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dq" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/table,
+/obj/item/clipboard,
+/obj/item/storage/firstaid/o2,
+/obj/item/crowbar,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "dr" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	icon_state = "snow_corner";
@@ -1525,11 +1698,203 @@
 	},
 /turf/open/floor/plating/dirt/dark,
 /area/lavaland/surface/outdoors/unexplored)
+"dv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dw" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dy" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dz" = (
+/obj/machinery/door/airlock/command{
+	name = "Telecomms Server Room";
+	req_access_txt = "61"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dA" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/floor/plating,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dB" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "dC" = (
 /obj/structure/table/wood,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/wood,
 /area/lavaland/surface/outdoors/unexplored)
+"dD" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dF" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dG" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "dH" = (
 /obj/structure/frame/machine,
 /obj/effect/turf_decal/stripes/line{
@@ -1539,12 +1904,379 @@
 /area/quartermaster/storage{
 	has_gravity = 1
 	})
+"dI" = (
+/obj/machinery/telecomms/bus/preset_one/birdstation,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Telecomms Server Room APC";
+	areastring = "/area/tcommsat/server";
+	pixel_x = -26
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dK" = (
+/obj/machinery/blackbox_recorder,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dL" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dM" = (
+/obj/machinery/telecomms/broadcaster/preset_left/birdstation,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dN" = (
+/obj/machinery/telecomms/server/presets/common/birdstation,
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dP" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dQ" = (
+/obj/machinery/announcement_system,
+/obj/machinery/status_display/ai{
+	pixel_x = 32
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dR" = (
+/obj/machinery/telecomms/receiver/preset_left/birdstation,
+/obj/machinery/airalarm/server{
+	dir = 4;
+	pixel_x = -23
+	},
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dT" = (
+/obj/machinery/telecomms/message_server,
+/turf/open/floor/circuit/green/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dU" = (
+/obj/machinery/telecomms/processor/preset_one/birdstation,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
 "dV" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
 	dir = 10
 	},
 /turf/open/floor/wood,
+/area/lavaland/surface/outdoors/unexplored)
+"dW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dX" = (
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dY" = (
+/obj/machinery/ntnet_relay,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"dZ" = (
+/obj/machinery/camera{
+	c_tag = "Communications Relay";
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/quartermaster/storage{
+	has_gravity = 1
+	})
+"ea" = (
+/turf/open/floor/plating/asteroid/basalt,
+/area/lavaland/surface/outdoors/unexplored)
+"eb" = (
+/turf/open/lava,
+/area/lavaland/surface/outdoors/unexplored)
+"ec" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/lavaland/surface/outdoors/unexplored)
+"ed" = (
+/obj/structure/bedsheetbin,
+/obj/structure/table,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"ee" = (
+/obj/structure/dresser,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"ef" = (
+/obj/structure/bed,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"eg" = (
+/obj/structure/toilet,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"eh" = (
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"ei" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"ej" = (
+/turf/open/floor/plasteel/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"ek" = (
+/obj/structure/curtain{
+	alpha = 240;
+	color = "#454545";
+	icon_state = "closed";
+	open = 0
+	},
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"el" = (
+/obj/structure/bookcase,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"em" = (
+/obj/structure/closet,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"en" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"eo" = (
+/obj/structure/mirror,
+/turf/closed/wall,
+/area/lavaland/surface/outdoors/unexplored)
+"ep" = (
+/obj/structure/ore_box,
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"eq" = (
+/obj/structure/frame/computer,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"er" = (
+/obj/structure/noticeboard{
+	dir = 4;
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"es" = (
+/obj/structure/rack,
+/turf/open/floor/plasteel/sepia,
+/area/lavaland/surface/outdoors/unexplored)
+"et" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/plasteel/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"eu" = (
+/obj/structure/fence/corner{
+	icon_state = "corner";
+	dir = 9
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"ev" = (
+/obj/structure/fence{
+	icon_state = "straight";
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"ew" = (
+/obj/structure/fence,
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"ex" = (
+/obj/structure/fence/door{
+	icon_state = "door_closed";
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/lavaland/surface/outdoors/unexplored)
+"ey" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/plasteel/sepia,
 /area/lavaland/surface/outdoors/unexplored)
 "ff" = (
 /obj/structure/barricade/wooden,
@@ -6677,12 +7409,12 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -6933,14 +7665,14 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -7190,28 +7922,28 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -7448,28 +8180,28 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -7704,29 +8436,29 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -7960,31 +8692,31 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+ea
+ea
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -8217,31 +8949,31 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+eb
+ea
+ea
+ea
+aa
+ea
+ea
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -8474,31 +9206,31 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -8730,32 +9462,32 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -8987,33 +9719,33 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+ea
+ea
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -9244,33 +9976,33 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+ea
+aa
+aa
+aa
 ay
 ay
 ay
@@ -9501,33 +10233,33 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -9757,34 +10489,34 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
 ay
 ay
 ay
@@ -10014,34 +10746,34 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
 ay
 ay
 ay
@@ -10271,35 +11003,35 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+ea
+aa
+aa
 ay
 ay
 ay
@@ -10528,35 +11260,35 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+ea
+ea
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
 ay
 ay
 ay
@@ -10785,35 +11517,35 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
 ay
 ay
 ay
@@ -11042,35 +11774,35 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
 ay
 ay
 ay
@@ -11202,19 +11934,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bz
+bE
+bz
+bE
+bz
+bz
+bz
+bE
+bz
+bz
+bz
+bE
+bz
 ay
 ay
 ay
@@ -11299,35 +12031,35 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
 ay
 ay
 ay
@@ -11456,22 +12188,22 @@ aa
 aa
 aa
 aa
+bE
 aa
-aa
-aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bu
+bz
+ak
+bP
+bX
+aV
+dq
+aV
+dB
+dI
+dN
+dR
+dW
+bz
 ay
 ay
 ay
@@ -11556,39 +12288,39 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+mq
+NZ
+mq
 ay
 ay
 ay
@@ -11714,21 +12446,21 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bu
+bu
+aV
+as
+as
+bX
+aV
+dv
+aV
+dD
+dJ
+dO
+dS
+dX
+bz
 ay
 ay
 ay
@@ -11813,41 +12545,41 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+NZ
+eq
+er
+eh
+mq
+aa
 ay
 ay
 ay
@@ -11971,21 +12703,21 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bu
+bk
+ai
+bk
+bX
+bX
+dp
+dw
+dz
+dE
+dK
+dP
+dT
+dY
+bz
 ay
 ay
 ay
@@ -12071,41 +12803,41 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+ej
+et
+ej
+ej
+ej
+et
+ej
+aa
 ay
 ay
 ay
@@ -12228,21 +12960,21 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bu
+bu
+aV
+be
+cd
+bX
+aV
+dx
+aV
+dF
+dL
+dO
+dS
+dX
+bz
 ay
 ay
 ay
@@ -12328,52 +13060,52 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+ep
+mq
 ay
+eh
+es
+NZ
+aa
+aa
+aT
+aT
+aa
+aa
+aa
+aa
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
 ay
 ay
 ay
@@ -12484,22 +13216,22 @@ aa
 aa
 aa
 aa
+bz
 aa
-aa
-aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bu
+bz
+bx
+cK
+bX
+aV
+dy
+dA
+dG
+dM
+dQ
+dU
+dZ
+bE
 ay
 ay
 ay
@@ -12585,57 +13317,57 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+ay
+ay
+mq
+ay
+mq
 ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aT
+aT
+aT
+aT
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -12744,19 +13476,19 @@ aa
 aa
 aa
 aa
-aa
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bz
+bz
+bE
+bz
+bz
+bE
+bz
+bz
+bz
+bE
+bz
+bz
+bE
 ay
 ay
 ay
@@ -12842,6 +13574,32 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -12853,47 +13611,21 @@ ay
 ay
 ay
 ay
+aT
+aT
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -13100,6 +13832,31 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+eb
+eb
+eb
+eb
+ea
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -13121,37 +13878,12 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aa
+aa
+aT
 ay
 ay
 ay
@@ -13357,6 +14089,31 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+aa
+ea
+ea
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -13379,36 +14136,11 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+aa
+aa
+aT
+aT
 ay
 ay
 ay
@@ -13614,6 +14346,31 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -13635,39 +14392,14 @@ ay
 ay
 ay
 ay
+aT
 ay
+aa
+aa
+aT
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
 ay
 ay
 ay
@@ -13871,6 +14603,31 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ea
+ea
+ea
+ea
+aa
+ea
+eu
+ew
+ex
+ew
+eu
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -13892,40 +14649,15 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -14129,6 +14861,29 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ej
+ea
+aa
+aa
+aa
+ev
+ej
+eh
+ej
+ev
+aa
+aa
+aa
 ay
 ay
 ay
@@ -14153,36 +14908,13 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -14387,6 +15119,27 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+mq
+ec
+NZ
+et
+NZ
+aa
+aa
+aa
+ev
+eh
+ey
+eh
+ev
+aa
+aa
 ay
 ay
 ay
@@ -14413,35 +15166,14 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -14646,6 +15378,22 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+NZ
+ed
+eh
+ej
+mq
+aa
+aa
+aa
+ev
+ej
+eh
+ej
 ay
 ay
 ay
@@ -14676,6 +15424,18 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -14700,37 +15460,9 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
 ay
 ay
 ay
@@ -14905,6 +15637,15 @@ ay
 ay
 ay
 ay
+aa
+aa
+mq
+ee
+eh
+el
+mq
+aa
+aa
 ay
 ay
 ay
@@ -14941,6 +15682,18 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aT
 ay
 ay
 ay
@@ -14962,37 +15715,16 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
 ay
 ay
 ay
@@ -15164,6 +15896,11 @@ ay
 ay
 ay
 ay
+NZ
+ef
+eh
+em
+mq
 ay
 ay
 ay
@@ -15202,6 +15939,24 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aT
+aT
+aT
+aT
+aa
+aa
 ay
 ay
 ay
@@ -15214,6 +15969,16 @@ ay
 ay
 ay
 ay
+aa
+aa
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
 ay
 ay
 ay
@@ -15226,43 +15991,10 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
 ay
 ay
 ay
@@ -15421,6 +16153,11 @@ ay
 ay
 ay
 ay
+mq
+mq
+ek
+NZ
+NZ
 ay
 ay
 ay
@@ -15469,10 +16206,35 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aT
+aa
+aT
+aT
+aT
 ay
 ay
 ay
@@ -15484,43 +16246,13 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
+aT
+aT
+aT
 ay
 ay
 ay
@@ -15678,6 +16410,11 @@ ay
 ay
 ay
 ay
+NZ
+eg
+ei
+en
+eo
 ay
 ay
 ay
@@ -15732,56 +16469,51 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aT
+aT
+aT
+aa
 ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -15935,6 +16667,11 @@ ay
 ay
 ay
 ay
+mq
+NZ
+NZ
+mq
+mq
 ay
 ay
 ay
@@ -15989,56 +16726,51 @@ ay
 ay
 ay
 ay
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -16259,43 +16991,43 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -16517,39 +17249,39 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ay
 ay
 ay
@@ -16775,42 +17507,42 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aT
+aT
+aT
+aT
 aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -17051,23 +17783,23 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
 aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
