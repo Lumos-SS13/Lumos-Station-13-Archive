@@ -14,6 +14,9 @@
 	disliked_food = NONE
 	liked_food = GROSS | MEAT | RAW | DAIRY
 
+/datum/species/skeleton/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/calcic) // Lumos change
+
 /datum/species/skeleton/check_roundstart_eligible()
 	if(SSevents.holidays && SSevents.holidays[HALLOWEEN])
 		return TRUE

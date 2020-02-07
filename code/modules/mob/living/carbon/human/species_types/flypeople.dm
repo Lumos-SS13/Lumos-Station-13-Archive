@@ -12,6 +12,9 @@
 	liked_food = GROSS
 	exotic_bloodtype = "BUG"
 
+/datum/species/insect/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/buzzwords) // Lumos change
+
 /datum/species/fly/handle_chemicals(datum/reagent/chem, mob/living/carbon/human/H)
 	if(chem.type == /datum/reagent/toxin/pestkiller)
 		H.adjustToxLoss(3)
