@@ -15,7 +15,7 @@
 		"hei", "huo", "suo", "ää", "ten", "ja", "heu", "stu", "uhr", "kön", "we", "hön"
 	)
 	icon = 'lumos/icons/language.dmi'
-	icon_state = "moth"
+	icon_state = "moff"
 	default_priority = 90
 
 // Fuck guest accounts, and fuck language testing.
