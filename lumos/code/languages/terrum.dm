@@ -5,6 +5,7 @@
 	ask_verb = "questions"
 	exclaim_verb = "tremors"
 	key = "g"
+	flags = TONGUELESS_SPEECH
 	space_chance = 40
 	syllables = list(
 		"sha", "vu", "nah", "ha", "yom", "ma", "cha", "ar", "et", "mol", "lua",

@@ -5,6 +5,7 @@
 	ask_verb = "flits"
 	exclaim_verb = "flaps"
 	key = "m"
+	flags = TONGUELESS_SPEECH
 	space_chance = 10
 	syllables = list(
 		"år", "i", "går", "sek", "mo", "ff", "ok", "gj", "ø", "gå", "la", "le",

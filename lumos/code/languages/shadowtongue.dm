@@ -7,6 +7,7 @@
 	ask_verb = "growls"
 	exclaim_verb = "roars"
 	key = "x"
+	flags = TONGUELESS_SPEECH
 	space_chance = 50
 	syllables = list(
 		"er", "sint", "en", "et", "nor", "bahr", "sint", "un", "ku'elm", "lakor", "eri",

@@ -5,6 +5,7 @@
 	ask_verb = "buzzes"
 	exclaim_verb = "loudly buzzes"
 	key = "z"
+	flags = TONGUELESS_SPEECH
 	space_chance = 0
 	syllables = list(
 		"bzz","zzz","z","bz","bzzz","zzzz", "bzzzz", "b", "zz", "zzzzz"
