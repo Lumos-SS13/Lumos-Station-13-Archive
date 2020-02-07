@@ -20,6 +20,7 @@
 	name = "toy hyper-burst launcher"
 	desc = "A toy laser with a unique beam shaping lens that projects harmless bolts capable of going through objects. Compatible with existing laser tag systems."
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/magtag)
+	icon = 'icons/obj/guns/energy.dmi'
 	icon_state = "toyburst"
 	obj_flags = NONE
 	fire_delay = 40
