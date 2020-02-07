@@ -3113,6 +3113,7 @@
 #include "lumos\code\languages\shadowtongue.dm"
 #include "lumos\code\languages\sylvan.dm"
 #include "lumos\code\languages\terrum.dm"
+#include "lumos\code\lanternhook.dm"
 #include "modular_citadel\code\__HELPERS\list2list.dm"
 #include "modular_citadel\code\__HELPERS\lists.dm"
 #include "modular_citadel\code\__HELPERS\mobs.dm"

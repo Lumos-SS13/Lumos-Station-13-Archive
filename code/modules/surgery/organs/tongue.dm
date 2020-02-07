@@ -23,6 +23,7 @@
 		/datum/language/aphasia,
 		/datum/language/slime,
 		/datum/language/vampiric,
+		/datum/language/dwarf,
 		/datum/language/buzzwords, //Start Lumos changes
 		/datum/language/calcic,
 		/datum/language/moffic,
