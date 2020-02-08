@@ -6,7 +6,7 @@
 	exclaim_verb = "exclaims"
 	key = "p"
 	flags = TONGUELESS_SPEECH
-	space_chance = 20
+	space_chance = 10
 	syllables = list(
 		"а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й",
 		"к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х",
