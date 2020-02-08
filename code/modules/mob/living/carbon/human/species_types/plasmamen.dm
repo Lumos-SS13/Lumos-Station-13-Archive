@@ -21,6 +21,9 @@
 	disliked_food = FRUIT
 	liked_food = VEGETABLES
 
+/datum/species/plasmaman/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/calcic) // Lumos change
+
 /datum/species/plasmaman/spec_life(mob/living/carbon/human/H)
 	var/datum/gas_mixture/environment = H.loc.return_air()
 	var/atmos_sealed = FALSE
