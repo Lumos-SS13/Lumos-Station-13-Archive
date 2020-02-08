@@ -3111,6 +3111,7 @@
 #include "lumos\code\languages\buzzwords.dm"
 #include "lumos\code\languages\calcic.dm"
 #include "lumos\code\languages\moffic.dm"
+#include "lumos\code\languages\neorussian.dm"
 #include "lumos\code\languages\shadowtongue.dm"
 #include "lumos\code\languages\sylvan.dm"
 #include "lumos\code\languages\terrum.dm"

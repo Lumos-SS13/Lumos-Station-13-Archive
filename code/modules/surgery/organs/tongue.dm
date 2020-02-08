@@ -29,7 +29,8 @@
 		/datum/language/moffic,
 		/datum/language/shadowtongue,
 		/datum/language/sylvan,
-		/datum/language/terrum, //End Lumos Changes
+		/datum/language/terrum,
+		/datum/language/neorussian, //End Lumos Changes
 	))
 	healing_factor = STANDARD_ORGAN_HEALING*5 //Fast!!
 	decay_factor = STANDARD_ORGAN_DECAY/2
