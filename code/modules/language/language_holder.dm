@@ -138,7 +138,7 @@
 
 /datum/language_holder/synthetic
 	languages = list(/datum/language/common)
-	shadow_languages = list(/datum/language/common, /datum/language/machine, /datum/language/draconic, /datum/language/slime, /datum/language/buzzwords, /datum/language/calcic, /datum/language/moffic, /datum/language/shadowtongue, /datum/language/sylvan, /datum/language/terrum) // Lumos change
+	shadow_languages = list(/datum/language/common, /datum/language/machine, /datum/language/draconic, /datum/language/slime, /datum/language/buzzwords, /datum/language/calcic, /datum/language/moffic, /datum/language/shadowtongue, /datum/language/sylvan, /datum/language/terrum, /datum/language/neorussian) // Lumos change
 
 /datum/language_holder/empty
 	languages = list()
