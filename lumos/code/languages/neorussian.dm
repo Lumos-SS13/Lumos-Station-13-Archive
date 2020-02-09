@@ -13,5 +13,5 @@
 		"ц", "ц", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я"
 	)
 	icon = 'lumos/icons/language.dmi'
-	icon_state = "calcic"
+	icon_state = "neorussian"
 	default_priority = 90
