@@ -30,7 +30,7 @@
 
 /mob/living/carbon/monkey/handle_mutations_and_radiation()
 	if(radiation)
-		if(radiation > RAD_MOB_MUTATE && prob((radiation - RAD_MOB_MUTATE) / 25))
+		if(radiation > RAD_MOB_MUTATE && prob((radiation - RAD_MOB_MUTATE) / 2000)) // Lumos change
 			gorillize() 
 			return
 		if(radiation > RAD_MOB_KNOCKDOWN && prob(RAD_MOB_KNOCKDOWN_PROB))

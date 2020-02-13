@@ -1,7 +1,7 @@
 ///Moffy's Snowflakey "Custom" Gear///
 
 /obj/item/clothing/neck/petcollar/moffy
-	name = "Stylish Leather Collar"
+	name = "Stylish leather collar"
 	desc = "A comfortable collar with a silver plate on the front denoting the wearer as property of Moffy."
 	icon_state = "moffy" //One of the only things that's actually custom made to some degree
 	item_color = "moffy"
@@ -12,7 +12,7 @@
 	primary_color = "#222222"
 
 /obj/item/electropack/shockcollar/moffy
-	name = "Stylish Shock Collar"
+	name = "Stylish shock collar"
 	desc = "A reinforced metal collar with a silver plate on the front denoting the wearer as property of Moffy. This one appears to have some wiring attached."
 	icon = 'icons/obj/clothing/neck.dmi'
 	alternate_worn_icon = 'icons/mob/neck.dmi'
@@ -21,36 +21,38 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
 /obj/item/clothing/mask/gas/syndicate/moffy
-	name = "Moffy's Gas Mask"
+	name = "Moffy's gas mask"
 	desc = "Custom gas mask with flash proofing."
 	flash_protect = 2
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
-/obj/item/clothing/head/helmet/space/hardsuit/moffy
-	name = "Moffy's Hardsuit Helmet"
+/obj/item/clothing/head/helmet/space/hardsuit/deathsquad/moffy
+	name = "Moffy's hardsuit helmet"
 	desc = "Custom made and fit hardsuit helmet with impressive armour and fireproofing."
-	icon_state = "hardsuit0-syndielite"
-	item_color = "syndielite"
+	icon_state = "deathsquad"
+	item_state = "swat_suit"
+	item_color = "syndi"
 	slowdown = 0
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 60, "energy" = 40, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
+	armor = list("melee" = 95, "bullet" = 95, "laser" = 95, "energy" = 95, "bomb" = 95, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
 
-/obj/item/clothing/suit/space/hardsuit/syndi/moffy
-	name = "Moffy's Hardsuit"
+/obj/item/clothing/suit/space/hardsuit/deathsquad/moffy
+	name = "Moffy's hardsuit"
 	desc = "Custom made and fit hardsuit with impressive armour and fireproofing."
-	icon_state = "hardsuit0-syndielite"
-	item_color = "syndielite"
+	icon_state = "deathsquad"
+	item_state = "swat_suit"
+	item_color = "syndi"
 	slowdown = 0
 	w_class = WEIGHT_CLASS_NORMAL
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 60, "energy" = 40, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
+	armor = list("melee" = 95, "bullet" = 95, "laser" = 95, "energy" = 95, "bomb" = 95, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
 	allowed = list(/obj/item/gun, /obj/item/ammo_box,/obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
 	jetpack = /obj/item/tank/jetpack/suit
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/moffy
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/deathsquad/moffy
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
 /obj/item/clothing/glasses/moffy
-	name = "Moffy's Sunglasses"
+	name = "Moffy's sunglasses"
 	desc = "Custom sunglasses with multiple features."
 	icon_state = "bigsunglasses"
 	item_state = "bigsunglasses"
@@ -62,7 +64,7 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
 /obj/item/clothing/glasses/hud/toggle/moffy
-	name = "Moffy's HUD Sunglasses"
+	name = "Moffy's HUD sunglasses"
 	desc = "Custom sunglasses with multiple HUD options."
 	icon_state = "bigsunglasses"
 	item_state = "bigsunglasses"
@@ -74,13 +76,13 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 
 /obj/item/clothing/head/HoS/moffy
-	name = "Moffy's Cap"
+	name = "Moffy's cap"
 	desc = "A black cap fit for a high ranking officer."
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 30, "energy" = 15, "bomb" = 30, "bio" = 15, "rad" = 5, "fire" = 55, "acid" = 65)
+	armor = list("melee" = 45, "bullet" = 35, "laser" = 30, "energy" = 15, "bomb" = 30, "bio" = 15, "rad" = 100, "fire" = 55, "acid" = 65)
 
 /obj/item/clothing/gloves/moffy
-	name = "Moffy's Gloves"
+	name = "Moffy's gloves"
 	desc = "These modified combat gloves are fireproof and shock resistant."
 	icon_state = "combat"
 	item_state = "blackgloves"
@@ -92,16 +94,16 @@
 	heat_protection = HANDS
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	armor = list("melee" = 5, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 85, "acid" = 55)
+	armor = list("melee" = 10, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 5, "bio" = 50, "rad" = 100, "fire" = 85, "acid" = 55)
 
 /obj/item/clothing/shoes/moffy
-	name = "Moffy's Boots"
+	name = "Moffy's boots"
 	desc = "Custom fit, high speed, low drag combat boots."
 	icon_state = "combat"
 	item_state = "jackboots"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 30, "bomb" = 55, "bio" = 15, "rad" = 5, "fire" = 75, "acid" = 55)
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 30, "bomb" = 55, "bio" = 15, "rad" = 100, "fire" = 75, "acid" = 55)
 	strip_delay = 70
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 	clothing_flags = LAVAPROTECT | NOSLIP
@@ -109,7 +111,7 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 
 /obj/item/clothing/neck/cloak/moffy
-	name = "Moffy's Cloak"
+	name = "Moffy's cloak"
 	desc = "Custom fit, protective cloak."
 	icon = 'icons/obj/custom.dmi'
 	icon_state = "infcloak"
@@ -118,26 +120,26 @@
 	w_class = WEIGHT_CLASS_SMALL
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	armor = list("melee" = 35, "bullet" = 10, "laser" = 25, "energy" = 10, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 60, "acid" = 60)
+	armor = list("melee" = 35, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 25, "bio" = 25, "rad" = 100, "fire" = 100, "acid" = 100)
 
 /obj/item/clothing/suit/armor/vest/capcarapace/moffy
-	name = "Moffy's Vest"
+	name = "Moffy's vest"
 	desc = "An impressive looking vest of advanced armor worn over a black and red fireproof jacket. The gold collar and shoulders denote that this belongs to a high ranking officer."
 	icon_state = "syndievest"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	armor = list("melee" = 55, "bullet" = 45, "laser" = 55, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 100, "acid" = 95)
+	armor = list("melee" = 55, "bullet" = 45, "laser" = 55, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 100, "fire" = 100, "acid" = 100)
 
 /obj/item/clothing/under/syndicate/moffy
-	name = "Moffy's Uniform"
+	name = "Moffy's uniform"
 	desc = "Custom fitted with added protection without sacrificing manoeuvrability."
 	icon_state = "syndicate_combat"
 	item_color = "syndicate_combat"
 	can_adjust = FALSE
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
-	armor = list("melee" = 15, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 55, "acid" = 45)
+	armor = list("melee" = 15, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 5, "bio" = 5, "rad" = 100, "fire" = 100, "acid" = 100)
 
 /obj/item/storage/backpack/satchel/moffy
-	name = "Moffy's Satchel"
+	name = "Moffy's satchel"
 	desc = "A satchel which leads directly to a personal pocket dimension. The insides feel exceptionally fluffy."
 	icon_state = "satchel"
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
@@ -151,8 +153,132 @@
 	STR.max_items = 6969
 	STR.allow_big_nesting = TRUE
 
+/obj/item/storage/belt/military/assault/moffy
+	name = "Moffy's belt"
+	desc = "A tactical assault belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
+	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
+
+/obj/item/storage/belt/military/assault/moffy/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_combined_w_class = 6969
+	STR.max_w_class = WEIGHT_CLASS_GIGANTIC
+	STR.max_items = 6969
+	STR.allow_big_nesting = TRUE
+
+/obj/item/storage/belt/military/assault/moffy/surgery
+	name = "Moffy's surgical belt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/surgery/PopulateContents()
+	new /obj/item/scalpel/alien(src)
+	new /obj/item/hemostat/alien(src)
+	new /obj/item/retractor/alien(src)
+	new /obj/item/circular_saw/alien(src)
+	new /obj/item/surgicaldrill/alien(src)
+	new /obj/item/cautery/alien(src)
+	new /obj/item/surgical_drapes(src)
+	new /obj/item/clothing/suit/straight_jacket(src)
+	new /obj/item/clothing/mask/muzzle(src)
+	new /obj/item/mmi(src)
+	new /obj/item/implantcase(src)
+	new /obj/item/implanter(src)
+	new /obj/item/reagent_containers/medspray/sterilizine(src)
+
+/obj/item/storage/belt/military/assault/moffy/tools
+	name = "Moffy's toolbelt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/tools/PopulateContents()
+	new /obj/item/screwdriver/abductor(src)
+	new /obj/item/wrench/abductor(src)
+	new /obj/item/weldingtool/abductor(src)
+	new /obj/item/crowbar/abductor(src)
+	new /obj/item/wirecutters/abductor(src)
+	new /obj/item/multitool/abductor(src)
+	new /obj/item/pipe_dispenser(src)
+	new /obj/item/construction/rcd/combat/admin(src)
+	new /obj/item/twohanded/rcl/pre_loaded(src)
+	new /obj/item/stack/cable_coil(src,30,"white")
+	
+/obj/item/storage/belt/military/assault/moffy/guns
+	name = "Moffy's gun belt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/guns/PopulateContents()
+	new /obj/item/gun/chem(src)
+	new /obj/item/gun/energy/laser/instakill(src)
+	new /obj/item/gun/energy/shrink_ray(src)
+	new /obj/item/gun/energy/gravity_gun(src)
+	new /obj/item/gun/energy/wormhole_projector(src)
+	new /obj/item/reagent_containers/spray/chemsprayer(src)
+	new /obj/item/gun/energy/ionrifle(src)
+	new /obj/item/gun/energy/e_gun/stun(src)
+	new /obj/item/gun/energy/pulse/destroyer(src)
+	new /obj/item/gun/ballistic/automatic/shotgun/bulldog/unrestricted(src)
+	new /obj/item/gun/ballistic/automatic/c20r/unrestricted(src)
+	new /obj/item/gun/ballistic/automatic/magrifle/hyperburst(src)
+
+/obj/item/storage/belt/military/assault/moffy/ammo
+	name = "Moffy's ammo belt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/ammo/PopulateContents()
+	for(var/i in 1 to 6)
+		new /obj/item/ammo_box/magazine/smgm45(src)
+	for(var/i in 1 to 4)
+		new /obj/item/ammo_box/a357(src)
+	for(var/i in 1 to 4)
+		new /obj/item/ammo_box/magazine/m12g(src)
+	for(var/i in 1 to 4)
+		new /obj/item/ammo_box/magazine/m12g/slug(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/m12g/stun(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/m12g/scatter(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/m12g/dragon(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/m12g/bioterror(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/m12g/meteor(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/mhyper(src)
+	for(var/i in 1 to 3)
+		new /obj/item/ammo_box/magazine/mhyper/inferno(src)
+
+/obj/item/storage/belt/military/assault/moffy/medicine
+	name = "Moffy's first-aid belt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/medicine/PopulateContents()
+	new /obj/item/storage/firstaid/brute(src)
+	new /obj/item/storage/firstaid/fire(src)
+	new /obj/item/storage/firstaid/toxin(src)
+	new /obj/item/storage/firstaid/o2(src)
+	new /obj/item/storage/firstaid/radbgone(src)
+	new /obj/item/storage/firstaid/regular(src)
+	new /obj/item/storage/firstaid/tactical(src)
+	new /obj/item/healthanalyzer/advanced(src)
+	new /obj/item/gun/medbeam(src)
+
+/obj/item/storage/belt/military/assault/moffy/cybernetics
+	name = "Moffy's implants belt"
+	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+
+/obj/item/storage/belt/military/assault/moffy/cybernetics/PopulateContents()
+	new /obj/item/autosurgeon(src)
+	new /obj/item/organ/cyberimp/chest/reviver(src)
+	new /obj/item/organ/cyberimp/chest/nutriment/plus(src)
+	new /obj/item/organ/cyberimp/eyes/hud/medical(src)
+	new /obj/item/organ/cyberimp/brain/anti_stun(src)
+	new /obj/item/organ/heart/cybernetic/upgraded(src)
+	new /obj/item/organ/lungs/cybernetic/upgraded(src)
+	new /obj/item/organ/liver/cybernetic/upgraded(src)
+
 /obj/item/radio/headset/moffy
-	name = "Moffy's Headset"
+	name = "Moffy's headset"
 	desc = "A headset with an encryption key set for all channels including those the crew shouldn't have."
 	icon_state = "syndie_headset"
 	keyslot = new /obj/item/encryptionkey/moffy
@@ -179,8 +305,8 @@
 	detonatable = FALSE
 
 /obj/item/card/id/moffy
-	name = "Moffy's ID Card"
-	desc = "Moffy's All Access ID Card."
+	name = "Moffy's ID card"
+	desc = "Moffy's all access ID card."
 	icon_state = "centcom"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
@@ -203,11 +329,11 @@
 	alternate_worn_icon = 'lumos/icons/adminloadout_w.dmi'
 
 /obj/item/radio/headset/moffy/aleksi
-	name = "Aleksi's Headset"
+	name = "Aleksi's headset"
 	desc = "The faint noise of the hit song Ocean Man can be heard from within the headset whenever it's not actively listening to comms."
 
 /obj/item/card/id/moffy/aleksi
-	name = "Aleksi's ID Card"
+	name = "Aleksi's ID card"
 	desc = "Aleksi's All Access ID Card."
 	registered_name = "Aleksi Ishimura"
 	assignment = "Head Lizzer"
@@ -216,37 +342,37 @@
 	name = "Aleksi's PDA"
 
 /obj/item/storage/backpack/satchel/moffy/aleksi
-	name = "Aleksi's Satchel"
+	name = "Aleksi's satchel"
 
 /obj/item/clothing/under/syndicate/moffy/aleksi
-	name = "Aleksi's Turtleneck"
+	name = "Aleksi's turtleneck"
 	desc = "A sleek, form hugging turtleneck that accentuates the wearers features whilst also being able to adjust to all sizes."
 	icon_state = "syndicate"
 	item_state = "bl_suit"
 	item_color = "syndicate"
 
 /obj/item/clothing/suit/armor/vest/capcarapace/moffy/aleksi
-	name = "Aleksi's Jacket"
+	name = "Aleksi's jacket"
 	desc = "A robust looking military jacket that is capable of conforming to all bust sizes whilst still looking awesome."
 	icon_state = "militaryjacket"
 	item_state = "militaryjacket"
 
 /obj/item/clothing/shoes/moffy/aleksi
-	name = "Aleksi's Jackboots"
+	name = "Aleksi's jackboots"
 	desc = "Jackboots custom fit to accomodate clawed reptilian feet."
 
 /obj/item/clothing/gloves/moffy/aleksi
-	name = "Aleksi's Gloves"
+	name = "Aleksi's gloves"
 	desc = "Gloves custom fit to accomodate clawed reptilian hands."
 
 /obj/item/clothing/head/HoS/moffy/aleksi
-	name = "Aleksi's Beret"
+	name = "Aleksi's beret"
 	desc = "A snazzy looking beret fit for a robust lizzer."
 	icon_state = "hosberetblack"
 	item_state = "hosberetblack"
 
 /obj/item/clothing/glasses/moffy/aleksi
-	name = "Aleksi's Eyepatch"
+	name = "Aleksi's eyepatch"
 	desc = "Somehow protects both eyes from bright flashes despite only covering one. Does still look pretty badass though."
 	icon_state = "eyepatch"
 	item_state = "eyepatch"
