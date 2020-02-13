@@ -170,6 +170,8 @@
 /obj/item/storage/belt/military/assault/moffy/surgery
 	name = "Moffy's surgical belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "soulstonebelt"
+	item_state = "soulstonebelt"
 
 /obj/item/storage/belt/military/assault/moffy/surgery/PopulateContents()
 	new /obj/item/scalpel/alien(src)
@@ -187,8 +189,10 @@
 	new /obj/item/reagent_containers/medspray/sterilizine(src)
 
 /obj/item/storage/belt/military/assault/moffy/tools
-	name = "Moffy's toolbelt"
+	name = "Moffy's tool belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "utilitybelt_ce"
+	item_state = "utility_ce"
 
 /obj/item/storage/belt/military/assault/moffy/tools/PopulateContents()
 	new /obj/item/screwdriver/abductor(src)
@@ -205,6 +209,8 @@
 /obj/item/storage/belt/military/assault/moffy/guns
 	name = "Moffy's gun belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "securitybelt"
+	item_state = "security"
 
 /obj/item/storage/belt/military/assault/moffy/guns/PopulateContents()
 	new /obj/item/gun/chem(src)
@@ -223,6 +229,8 @@
 /obj/item/storage/belt/military/assault/moffy/ammo
 	name = "Moffy's ammo belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "grenadebeltnew"
+	item_state = "security"
 
 /obj/item/storage/belt/military/assault/moffy/ammo/PopulateContents()
 	for(var/i in 1 to 6)
@@ -251,6 +259,8 @@
 /obj/item/storage/belt/military/assault/moffy/medicine
 	name = "Moffy's first-aid belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "medicalbelt"
+	item_state = "medical"
 
 /obj/item/storage/belt/military/assault/moffy/medicine/PopulateContents()
 	new /obj/item/storage/firstaid/brute(src)
@@ -266,6 +276,8 @@
 /obj/item/storage/belt/military/assault/moffy/cybernetics
 	name = "Moffy's implants belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
+	icon_state = "grenadebeltold"
+	item_state = "security"
 
 /obj/item/storage/belt/military/assault/moffy/cybernetics/PopulateContents()
 	new /obj/item/autosurgeon(src)
