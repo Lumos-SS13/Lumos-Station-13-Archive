@@ -128,3 +128,9 @@
 	name = "Wolf"
 	icon_state = "wolf"
 	taur_mode = STYLE_PAW_TAURIC
+
+/datum/sprite_accessory/taur/spider
+	name = "Spider"
+	icon_state = "spider"
+	color_src = MUTCOLORS
+
