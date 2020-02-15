@@ -170,8 +170,8 @@
 /obj/item/storage/belt/military/assault/moffy/surgery
 	name = "Moffy's surgical belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
-	icon_state = "soulstonebelt"
-	item_state = "soulstonebelt"
+	icon_state = "grenadebeltold"
+	item_state = "security"
 
 /obj/item/storage/belt/military/assault/moffy/surgery/PopulateContents()
 	new /obj/item/scalpel/alien(src)
@@ -229,8 +229,8 @@
 /obj/item/storage/belt/military/assault/moffy/ammo
 	name = "Moffy's ammo belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
-	icon_state = "grenadebeltnew"
-	item_state = "security"
+	icon_state = "bandolier"
+	item_state = "bandolier"
 
 /obj/item/storage/belt/military/assault/moffy/ammo/PopulateContents()
 	for(var/i in 1 to 6)
@@ -276,7 +276,7 @@
 /obj/item/storage/belt/military/assault/moffy/cybernetics
 	name = "Moffy's implants belt"
 	desc = "A belt that leads to a personal pocket dimension The insides feel exceptionally fluffy."
-	icon_state = "grenadebeltold"
+	icon_state = "grenadebeltnew"
 	item_state = "security"
 
 /obj/item/storage/belt/military/assault/moffy/cybernetics/PopulateContents()
@@ -328,6 +328,24 @@
 
 /obj/item/card/id/moffy/Initialize()
 	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()+ACCESS_AWAY_GENERAL+ACCESS_AWAY_MAINT+ACCESS_AWAY_SEC+ACCESS_AWAY_ENGINE+ACCESS_BLOODCULT+ACCESS_CLOCKCULT //Can't hide from the moff
+	. = ..()
+
+/obj/item/gun/magic/staff/moffy
+	name = "Moffy's staff of var edit bullshittery" // This can only end so well
+	desc = "An artefact that bends to it's true user's will."
+	fire_sound = 'sound/magic/staff_chaos.ogg' // Edit this for !!!FUN!!!
+	ammo_type = /obj/item/ammo_casing/magic/chaos
+	icon_state = "staffofchaos"
+	item_state = "staffofchaos"
+	max_charges = 696969 // Nice.
+	recharge_rate = 69 // Nice.
+	no_den_usage = 1
+	spread = 1
+	burst_size = 69 // Lagfest supreme, also, nice.
+	var/allowed_projectile_types = list(/obj/item/projectile/beam/disabler)
+
+/obj/item/gun/magic/staff/chaos/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
+	chambered.projectile_type = pick(allowed_projectile_types)
 	. = ..()
 
 ///Stuff Moffy "made" for Aleksi too///
