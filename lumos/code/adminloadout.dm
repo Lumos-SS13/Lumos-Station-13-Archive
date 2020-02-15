@@ -342,9 +342,9 @@
 	no_den_usage = 1
 	spread = 1
 	burst_size = 69 // Lagfest supreme, also, nice.
-	var/allowed_projectile_types = list(/obj/item/projectile/magic/spellblade, /obj/item/projectile/magic/arcane_barrage)
+	var/allowed_projectile_types = list(/obj/item/projectile/beam/disabler)
 
-/obj/item/gun/magic/staff/chaos/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
+/obj/item/gun/magic/staff/moffy/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
 	chambered.projectile_type = pick(allowed_projectile_types)
 	. = ..()
 
