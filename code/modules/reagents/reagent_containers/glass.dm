@@ -237,12 +237,13 @@
 	name = "bluespace beaker"
 	desc = "A bluespace beaker, powered by experimental bluespace technology \
 		and Element Cuban combined with the Compound Pete. Can hold up to \
-		300 units. Unable to withstand reagents of an extreme pH."
+		300 units. Able to withstand reagents of an extreme pH."
 	icon_state = "beakerbluespace"
 	materials = list(MAT_GLASS=3000)
 	volume = 300
 	amount_per_transfer_from_this = 10
 	possible_transfer_amounts = list(5,10,15,20,25,30,50,100,300)
+	container_flags = APTFT_ALTCLICK|APTFT_VERB // lumos change
 	container_HP = 5
 
 /obj/item/reagent_containers/glass/beaker/cryoxadone

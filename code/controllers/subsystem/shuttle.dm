@@ -38,8 +38,7 @@ SUBSYSTEM_DEF(shuttle)
 	var/points = 5000					//number of trade-points we have
 	var/centcom_message = ""			//Remarks from CentCom on how well you checked the last order.
 	var/list/discoveredPlants = list()	//Typepaths for unusual plants we've already sent CentCom, associated with their potencies
-	var/passive_supply_points_per_minute = 125
-
+	var/passive_supply_points_per_minute = 100
 	var/list/supply_packs = list()
 	var/list/shoppinglist = list()
 	var/list/requestlist = list()
@@ -55,7 +54,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
-	var/auto_call = 72000 //CIT CHANGE - time before in deciseconds in which the shuttle is auto called. Default is 2ish hours plus 15 for the shuttle. So total is 3.
+	var/auto_call = 360000 //Lumos change - 10 hours till auto call
 	var/realtimeofstart = 0
 
 /datum/controller/subsystem/shuttle/Initialize(timeofday)

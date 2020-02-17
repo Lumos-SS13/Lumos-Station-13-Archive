@@ -59,6 +59,7 @@
 	species_traits = list(MUTCOLORS,EYECOLOR,LIPS)
 	inherent_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	mutant_bodyparts = list("xenotail", "xenohead", "xenodorsal", "mam_body_markings", "taur", "legs")
+	mutanttongue = /obj/item/organ/tongue/alien
 	default_features = list("xenotail"="Xenomorph Tail","xenohead"="Standard","xenodorsal"="Standard", "mam_body_markings" = "Xeno","mcolor" = "0F0","mcolor2" = "0F0","mcolor3" = "0F0","taur" = "None", "legs" = "Digitigrade")
 	attack_verb = "slash"
 	attack_sound = 'sound/weapons/slash.ogg'
@@ -69,6 +70,9 @@
 	exotic_bloodtype = "X*"
 	damage_overlay_type = "xeno"
 	liked_food = MEAT
+
+/datum/species/xeno/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/xenocommon)
 
 //Praise the Omnissiah, A challange worthy of my skills - HS
 

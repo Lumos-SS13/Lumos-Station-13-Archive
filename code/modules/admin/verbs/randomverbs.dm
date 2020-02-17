@@ -140,7 +140,7 @@
 		return
 	to_chat(world, "[msg]")
 	log_admin("GlobalNarrate: [key_name(usr)] : [msg]")
-	message_admins("<span class='adminnotice'>[key_name_admin(usr)] Sent a global narrate</span>")
+	message_admins("<span class='adminnotice'>[key_name_admin(usr)] Sent a global narrate of [sanitize(msg)]</span>")
 	SSblackbox.record_feedback("tally", "admin_verb", 1, "Global Narrate") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
 /client/proc/cmd_admin_direct_narrate(mob/M)
@@ -163,7 +163,7 @@
 
 	to_chat(M, msg)
 	log_admin("DirectNarrate: [key_name(usr)] to ([M.name]/[M.key]): [msg]")
-	msg = "<span class='adminnotice'><b> DirectNarrate: [key_name(usr)] to ([M.name]/[M.key]):</b> [msg]<BR></span>"
+	msg = "<span class='adminnotice'><b> DirectNarrate: [key_name(usr)] to ([M.name]/[M.key]):</b> [sanitize(msg)]<BR></span>"
 	message_admins(msg)
 	admin_ticket_log(M, msg)
 	SSblackbox.record_feedback("tally", "admin_verb", 1, "Direct Narrate") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
@@ -186,7 +186,7 @@
 		to_chat(M, msg)
 
 	log_admin("LocalNarrate: [key_name(usr)] at [AREACOORD(A)]: [msg]")
-	message_admins("<span class='adminnotice'><b> LocalNarrate: [key_name_admin(usr)] at [ADMIN_VERBOSEJMP(A)]:</b> [msg]<BR></span>")
+	message_admins("<span class='adminnotice'><b> LocalNarrate: [key_name_admin(usr)] at [ADMIN_VERBOSEJMP(A)]:</b> [sanitize(msg)]<BR></span>")
 	SSblackbox.record_feedback("tally", "admin_verb", 1, "Local Narrate") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
 /client/proc/cmd_admin_godmode(mob/M in GLOB.mob_list)
@@ -872,182 +872,6 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	message_admins("[ADMIN_LOOKUPFLW(usr)] [N.timing ? "activated" : "deactivated"] a nuke at [ADMIN_VERBOSEJMP(N)].")
 	SSblackbox.record_feedback("nested tally", "admin_toggle", 1, list("Toggle Nuke", "[N.timing]")) //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
-GLOBAL_LIST_EMPTY(custom_outfits) //Admin created outfits
-
-/client/proc/create_outfits()
-	set category = "Debug"
-	set name = "Create Custom Outfit"
-
-	if(!check_rights(R_DEBUG))
-		return
-
-	holder.create_outfit()
-
-/datum/admins/proc/create_outfit()
-	var/list/uniforms = typesof(/obj/item/clothing/under)
-	var/list/suits = typesof(/obj/item/clothing/suit)
-	var/list/gloves = typesof(/obj/item/clothing/gloves)
-	var/list/shoes = typesof(/obj/item/clothing/shoes)
-	var/list/headwear = typesof(/obj/item/clothing/head)
-	var/list/glasses = typesof(/obj/item/clothing/glasses)
-	var/list/masks = typesof(/obj/item/clothing/mask)
-	var/list/ids = typesof(/obj/item/card/id)
-
-	var/uniform_select = "<select name=\"outfit_uniform\"><option value=\"\">None</option>"
-	for(var/path in uniforms)
-		uniform_select += "<option value=\"[path]\">[path]</option>"
-	uniform_select += "</select>"
-
-	var/suit_select = "<select name=\"outfit_suit\"><option value=\"\">None</option>"
-	for(var/path in suits)
-		suit_select += "<option value=\"[path]\">[path]</option>"
-	suit_select += "</select>"
-
-	var/gloves_select = "<select name=\"outfit_gloves\"><option value=\"\">None</option>"
-	for(var/path in gloves)
-		gloves_select += "<option value=\"[path]\">[path]</option>"
-	gloves_select += "</select>"
-
-	var/shoes_select = "<select name=\"outfit_shoes\"><option value=\"\">None</option>"
-	for(var/path in shoes)
-		shoes_select += "<option value=\"[path]\">[path]</option>"
-	shoes_select += "</select>"
-
-	var/head_select = "<select name=\"outfit_head\"><option value=\"\">None</option>"
-	for(var/path in headwear)
-		head_select += "<option value=\"[path]\">[path]</option>"
-	head_select += "</select>"
-
-	var/glasses_select = "<select name=\"outfit_glasses\"><option value=\"\">None</option>"
-	for(var/path in glasses)
-		glasses_select += "<option value=\"[path]\">[path]</option>"
-	glasses_select += "</select>"
-
-	var/mask_select = "<select name=\"outfit_mask\"><option value=\"\">None</option>"
-	for(var/path in masks)
-		mask_select += "<option value=\"[path]\">[path]</option>"
-	mask_select += "</select>"
-
-	var/id_select = "<select name=\"outfit_id\"><option value=\"\">None</option>"
-	for(var/path in ids)
-		id_select += "<option value=\"[path]\">[path]</option>"
-	id_select += "</select>"
-
-	var/dat = {"
-	<html><head><title>Create Outfit</title></head><body>
-	<form name="outfit" action="byond://?src=[REF(src)];[HrefToken()]" method="get">
-	<input type="hidden" name="src" value="[REF(src)]">
-	[HrefTokenFormField()]
-	<input type="hidden" name="create_outfit" value="1">
-	<table>
-		<tr>
-			<th>Name:</th>
-			<td>
-				<input type="text" name="outfit_name" value="Custom Outfit">
-			</td>
-		</tr>
-		<tr>
-			<th>Uniform:</th>
-			<td>
-				[uniform_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Suit:</th>
-			<td>
-				[suit_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Back:</th>
-			<td>
-				<input type="text" name="outfit_back" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Belt:</th>
-			<td>
-				<input type="text" name="outfit_belt" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Gloves:</th>
-			<td>
-				[gloves_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Shoes:</th>
-			<td>
-				[shoes_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Head:</th>
-			<td>
-				[head_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Mask:</th>
-			<td>
-				[mask_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Ears:</th>
-			<td>
-				<input type="text" name="outfit_ears" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Glasses:</th>
-			<td>
-				[glasses_select]
-			</td>
-		</tr>
-		<tr>
-			<th>ID:</th>
-			<td>
-				[id_select]
-			</td>
-		</tr>
-		<tr>
-			<th>Left Pocket:</th>
-			<td>
-				<input type="text" name="outfit_l_pocket" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Right Pocket:</th>
-			<td>
-				<input type="text" name="outfit_r_pocket" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Suit Store:</th>
-			<td>
-				<input type="text" name="outfit_s_store" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Right Hand:</th>
-			<td>
-				<input type="text" name="outfit_r_hand" value="">
-			</td>
-		</tr>
-		<tr>
-			<th>Left Hand:</th>
-			<td>
-				<input type="text" name="outfit_l_hand" value="">
-			</td>
-		</tr>
-	</table>
-	<br>
-	<input type="submit" value="Save">
-	</form></body></html>
-	"}
-	usr << browse(dat, "window=dressup;size=550x600")
 
 /client/proc/toggle_combo_hud()
 	set category = "Admin"
