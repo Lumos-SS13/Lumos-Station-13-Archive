@@ -12,8 +12,6 @@
 	var/obj/item/stack/digResult = /obj/item/stack/ore/glass/basalt
 	var/dug
 	var/list/flora_spawn_list = list(/obj/structure/flora/tree/jungle = 5, /obj/structure/flora/ausbushes = 10, /obj/structure/flora/ausbushes/palebush = 10, /obj/structure/flora/ausbushes/stalkybush = 10, /obj/structure/flora/ausbushes/grassybush = 20, /obj/structure/flora/ausbushes/fernybush = 10, /obj/structure/flora/ausbushes/sparsegrass = 30, /obj/structure/flora/ausbushes/fullgrass = 30, /obj/structure/flora/ausbushes = 10, /obj/structure/flora/tree/jungle/small = 10, /obj/structure/flora/grass/jungle = 20, /obj/structure/flora/rock/jungle = 4, /obj/structure/flora/junglebush = 2, /obj/structure/flora/junglebush/b = 2, /obj/structure/flora/junglebush/c = 2, /obj/structure/flora/junglebush/large = 2, /obj/structure/flora/rock/pile/largejungle = 1, /obj/structure/flora/ash/leaf_shroom = 2 , /obj/structure/flora/ash/cap_shroom = 2 , /obj/structure/flora/ash/stem_shroom = 2 , /obj/structure/flora/ash/cacti = 1, /obj/structure/flora/ash/tall_shroom = 2)
-	light_power = 0.075
-	light_range = 2
 	var/sanity = 1
 
 /turf/open/floor/plating/dirt/dark

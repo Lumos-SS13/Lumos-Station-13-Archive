@@ -29,6 +29,10 @@ map lumosstation
 	#voteweight 1
 endmap
 
+map ebonport
+	#voteweight 1
+endmap
+
 map pubbystation
 endmap
 
