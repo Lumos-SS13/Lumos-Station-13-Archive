@@ -282,7 +282,7 @@
 "aS" = (
 /obj/structure/table/optable,
 /obj/effect/landmark/start,
-/turf/open/indestructible/cobble,
+/turf/open/floor/wood,
 /area/mine/living_quarters)
 "aT" = (
 /turf/open/indestructible/cobble/side{
@@ -315,10 +315,6 @@
 	dir = 5
 	},
 /turf/open/floor/grass,
-/area/mine/living_quarters)
-"aZ" = (
-/obj/structure/table/wood,
-/turf/open/indestructible/cobble,
 /area/mine/living_quarters)
 "ba" = (
 /obj/structure/barricade/wooden,
@@ -13154,9 +13150,9 @@ ag
 ag
 al
 au
-aR
-aR
-aR
+al
+al
+al
 aM
 aa
 aa
@@ -13411,9 +13407,9 @@ bf
 ag
 al
 aM
-aR
+al
 aS
-aZ
+as
 aM
 aa
 aa
