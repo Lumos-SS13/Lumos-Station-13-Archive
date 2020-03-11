@@ -316,6 +316,10 @@
 	},
 /turf/open/floor/grass,
 /area/mine/living_quarters)
+"aZ" = (
+/obj/machinery/light/small,
+/turf/open/floor/wood,
+/area/mine/living_quarters)
 "ba" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/wood,
@@ -369,7 +373,9 @@
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "bj" = (
-/obj/machinery/rnd/production/protolathe/department/science,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "bk" = (
@@ -397,7 +403,7 @@
 /area/mine/living_quarters)
 "bp" = (
 /obj/machinery/power/apc{
-	pixel_x = -30
+	pixel_x = 0
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -412,8 +418,8 @@
 /area/mine/living_quarters)
 "br" = (
 /obj/structure/cable,
-/obj/machinery/power/port_gen,
 /obj/item/stack/sheet/mineral/plasma,
+/obj/machinery/power/port_gen/pacman,
 /obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/plating,
 /area/mine/living_quarters)
@@ -426,6 +432,107 @@
 	slogan_delay = 700
 	},
 /turf/open/floor/grass,
+/area/mine/living_quarters)
+"bu" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/indestructible/cobble/corner,
+/area/mine/living_quarters)
+"bv" = (
+/obj/structure/bed/roller,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bw" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/mine/living_quarters)
+"bx" = (
+/obj/structure/table/wood,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"by" = (
+/obj/structure/bed/roller,
+/obj/machinery/light/small,
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bz" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bA" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bB" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/indestructible/cobble,
+/area/mine/living_quarters)
+"bC" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/dark,
+/area/mine/living_quarters)
+"bD" = (
+/obj/machinery/rnd/production/protolathe/department/science,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bE" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bF" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/indestructible/cobble/side{
+	icon_state = "cobble_side";
+	dir = 1
+	},
+/area/mine/living_quarters)
+"bG" = (
+/obj/machinery/light/small,
+/turf/open/indestructible/cobble/side,
+/area/mine/living_quarters)
+"bH" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar_left";
+	name = "skeletal minibar"
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bI" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar_right";
+	name = "skeletal minibar"
+	},
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bJ" = (
+/obj/structure/rack,
+/turf/open/floor/wood,
 /area/mine/living_quarters)
 "Wv" = (
 /turf/closed/indestructible/rock,
@@ -4673,7 +4780,7 @@ ag
 ag
 ag
 ag
-al
+bA
 al
 ag
 ag
@@ -6472,7 +6579,7 @@ ac
 aN
 aT
 aR
-aR
+bB
 aR
 bh
 ac
@@ -8256,7 +8363,7 @@ ag
 ag
 ag
 ag
-aj
+bF
 af
 ak
 ab
@@ -9047,19 +9154,19 @@ ak
 ab
 ag
 ag
-al
+bz
 al
 al
 bm
 al
 bm
-al
+bz
 bm
 al
 al
 al
 al
-al
+bz
 ag
 ag
 aa
@@ -9267,12 +9374,12 @@ aa
 aa
 aa
 ad
-am
+bu
 af
 an
 ag
 ar
-al
+bE
 al
 ag
 al
@@ -9524,7 +9631,7 @@ aa
 aa
 aa
 ad
-ad
+ag
 at
 ad
 ag
@@ -9557,7 +9664,7 @@ ae
 ae
 ae
 af
-ak
+bG
 ag
 al
 al
@@ -9781,21 +9888,21 @@ aa
 aa
 aa
 aa
-aa
+bC
 aa
 aa
 aa
 ag
-al
+bH
 al
 au
 al
 al
 aw
 aw
-al
+aZ
 ag
-al
+bj
 al
 ag
 aj
@@ -10043,7 +10150,7 @@ aa
 aa
 aa
 ag
-al
+bI
 al
 ag
 al
@@ -10300,7 +10407,7 @@ aa
 aa
 aa
 ag
-al
+bJ
 al
 ag
 ag
@@ -10317,11 +10424,11 @@ ak
 ag
 aI
 as
-as
+bx
 al
 al
 ag
-aj
+bF
 ak
 aa
 aa
@@ -10562,7 +10669,7 @@ al
 al
 al
 al
-al
+bJ
 ag
 ai
 ae
@@ -10589,19 +10696,19 @@ aa
 aa
 ag
 ag
-al
+bE
 al
 al
 bo
 al
 bo
-al
+bE
 bo
 al
 al
 al
 al
-al
+bE
 ag
 ag
 aa
@@ -10814,12 +10921,12 @@ aa
 aa
 aa
 ag
+bJ
+bJ
+bJ
 al
 al
-al
-al
-al
-al
+bJ
 ag
 am
 ao
@@ -11095,7 +11202,7 @@ ag
 ag
 ag
 aQ
-as
+bx
 aU
 ag
 aa
@@ -11623,7 +11730,7 @@ al
 al
 bp
 ag
-ad
+ag
 aa
 aa
 aa
@@ -11872,7 +11979,7 @@ ag
 aa
 aa
 ag
-bj
+bD
 al
 al
 aw
@@ -11880,7 +11987,7 @@ aw
 al
 bq
 br
-ad
+ag
 aa
 aa
 aa
@@ -12137,7 +12244,7 @@ aw
 al
 al
 ag
-ad
+ag
 aa
 aa
 aa
@@ -12371,11 +12478,11 @@ aa
 aj
 ak
 ag
-aK
+bv
 al
 aw
 al
-aK
+by
 ag
 al
 ag
@@ -13151,7 +13258,7 @@ ag
 al
 au
 al
-al
+bz
 al
 aM
 aa
@@ -13400,7 +13507,7 @@ aj
 ak
 aX
 bb
-be
+bw
 be
 be
 bf

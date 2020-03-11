@@ -35,7 +35,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "space"
 	requires_power = TRUE
 	always_unpowered = TRUE
-	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
 	power_light = FALSE
 	power_equip = FALSE
 	power_environ = FALSE
