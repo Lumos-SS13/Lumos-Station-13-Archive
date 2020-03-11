@@ -10,6 +10,9 @@
 	slowdown = 1
 	bullet_sizzle = TRUE
 	bullet_bounce_sound = null //needs a splashing sound one day.
+	density = TRUE
+	blocks_air = 1
+	opacity = 0
 
 	footstep = FOOTSTEP_WATER
 	barefootstep = FOOTSTEP_WATER

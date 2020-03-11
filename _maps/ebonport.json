@@ -1,0 +1,11 @@
+{
+    "map_name": "Ebon Port",
+    "map_path": "map_files/ebonport",
+    "map_file": "ebonport.dmm",
+    "shuttles": {
+	    "cargo": "cargo_lumos",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_box"
+    }
+}
