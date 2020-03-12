@@ -9,8 +9,8 @@
 /turf/open/water,
 /area/lavaland/surface/outdoors/unexplored)
 "ad" = (
-/turf/closed/wall/mineral/wood,
-/area/lavaland/surface/outdoors/unexplored)
+/turf/open/water,
+/area/mine/living_quarters)
 "ae" = (
 /turf/open/indestructible/cobble/side{
 	icon_state = "cobble_side";
@@ -84,20 +84,15 @@
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "at" = (
-/obj/structure/mineral_door/woodrustic,
-/turf/open/indestructible/cobble,
-/area/lavaland/surface/outdoors/unexplored)
+/turf/open/floor/plating/sand,
+/area/mine/living_quarters)
 "au" = (
 /obj/structure/mineral_door/woodrustic,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "av" = (
-/obj/structure/mineral_door/woodrustic,
-/turf/open/indestructible/cobble/side{
-	icon_state = "cobble_side";
-	dir = 4
-	},
-/area/lavaland/surface/outdoors/unexplored)
+/turf/open/floor/plating/dirt/dark,
+/area/mine/living_quarters)
 "aw" = (
 /obj/effect/landmark/start,
 /turf/open/floor/wood,
@@ -210,7 +205,7 @@
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "aG" = (
-/obj/machinery/vending/tool,
+/obj/machinery/computer/rdconsole/core,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "aH" = (
@@ -254,17 +249,11 @@
 /turf/open/indestructible/cobble/corner,
 /area/mine/living_quarters)
 "aO" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 3;
-	height = 15;
-	id = "arrivals_stationary";
-	name = "lumos arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/lumos;
-	width = 7
+/turf/open/indestructible/cobble/side{
+	icon_state = "cobble_side";
+	dir = 1
 	},
-/turf/open/water,
-/area/lavaland/surface/outdoors/unexplored)
+/area/mine/living_quarters)
 "aP" = (
 /obj/machinery/mineral/ore_redemption,
 /turf/open/indestructible/cobble/side{
@@ -372,21 +361,9 @@
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
-"bj" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/mine/living_quarters)
 "bk" = (
 /obj/machinery/rnd/production/circuit_imprinter/department/science,
 /obj/item/reagent_containers/glass/beaker/sulphuric,
-/turf/open/floor/wood,
-/area/mine/living_quarters)
-"bl" = (
-/obj/machinery/computer/rdconsole/core{
-	dir = 4
-	},
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "bm" = (
@@ -558,6 +535,48 @@
 /turf/closed/wall/mineral/wood,
 /area/mine/living_quarters)
 "bN" = (
+/obj/structure/mineral_door/woodrustic,
+/turf/open/indestructible/cobble,
+/area/mine/living_quarters)
+"bO" = (
+/turf/open/indestructible/cobble/side,
+/area/mine/living_quarters)
+"bP" = (
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bQ" = (
+/turf/open/indestructible/cobble/corner{
+	icon_state = "cobble_corner";
+	dir = 1
+	},
+/area/mine/living_quarters)
+"bR" = (
+/turf/open/indestructible/cobble/side{
+	icon_state = "cobble_side";
+	dir = 8
+	},
+/area/mine/living_quarters)
+"bS" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 15;
+	id = "arrivals_stationary";
+	name = "lumos arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/lumos;
+	width = 7
+	},
+/turf/open/water,
+/area/lavaland/surface/outdoors/unexplored)
+"bT" = (
+/obj/structure/mineral_door/woodrustic,
+/turf/open/indestructible/cobble/side{
+	icon_state = "cobble_side";
+	dir = 4
+	},
+/area/mine/living_quarters)
+"bU" = (
 /obj/structure/noticeboard{
 	desc = "A board for pinning important notices upon. Probably helpful for keeping track of requests.";
 	name = "requests board";
@@ -568,13 +587,12 @@
 	icon_state = "cobble_side";
 	dir = 1
 	},
-/area/lavaland/surface/outdoors/unexplored)
-"bO" = (
-/turf/open/floor/plating/dirt/dark,
-/area/space)
-"bP" = (
-/obj/machinery/mineral/equipment_vendor,
-/turf/open/floor/wood,
+/area/mine/living_quarters)
+"bV" = (
+/turf/open/indestructible/cobble/corner{
+	icon_state = "cobble_corner";
+	dir = 8
+	},
 /area/mine/living_quarters)
 "Wv" = (
 /turf/closed/indestructible/rock,
@@ -3789,18 +3807,18 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ac
 ac
 ac
@@ -4046,7 +4064,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 ag
 ag
 ag
@@ -4057,7 +4075,7 @@ ag
 ag
 ag
 ag
-ac
+ad
 ac
 ac
 ac
@@ -4303,7 +4321,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 ag
 al
 aw
@@ -4314,7 +4332,7 @@ ba
 al
 al
 ag
-ac
+ad
 ac
 ac
 ac
@@ -4559,8 +4577,8 @@ ac
 ac
 ac
 ac
-ac
-ac
+ad
+ad
 ag
 al
 al
@@ -4571,7 +4589,7 @@ au
 aw
 al
 ag
-ac
+ad
 ac
 ac
 ac
@@ -4816,7 +4834,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 ag
 ag
 ag
@@ -4828,7 +4846,7 @@ ag
 ag
 ag
 ag
-ac
+ad
 ac
 ac
 ac
@@ -5073,7 +5091,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 ag
 al
 as
@@ -5085,7 +5103,7 @@ ba
 al
 al
 ag
-ac
+ad
 ac
 ac
 ac
@@ -5330,7 +5348,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 ag
 al
 as
@@ -5342,7 +5360,7 @@ au
 al
 al
 ag
-ac
+ad
 ac
 ac
 ac
@@ -5576,6 +5594,9 @@ af
 ak
 ac
 ac
+ac
+ac
+ac
 ai
 ae
 ae
@@ -5584,10 +5605,7 @@ ah
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+ad
 ag
 al
 al
@@ -5599,7 +5617,7 @@ ag
 ag
 ag
 ag
-ac
+ad
 ac
 ac
 ac
@@ -5833,18 +5851,18 @@ af
 ak
 ac
 ac
-am
-ao
-ao
+ac
+ac
+ac
+aj
 af
-ak
+ao
+ao
+an
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+ad
 ag
 ag
 al
@@ -5853,10 +5871,10 @@ as
 al
 al
 ag
-ac
-ac
-ac
-ac
+ad
+ad
+ad
+ad
 ac
 ac
 ac
@@ -6101,8 +6119,8 @@ ac
 ac
 ac
 ac
-ac
-ac
+ad
+ad
 ag
 ag
 ag
@@ -6110,7 +6128,7 @@ ag
 al
 al
 ag
-ac
+ad
 ac
 ac
 ac
@@ -6330,9 +6348,9 @@ ab
 ab
 ac
 ac
-ac
-ac
-ac
+ad
+ad
+ad
 bL
 ac
 ac
@@ -6359,7 +6377,7 @@ ac
 ac
 ac
 ac
-ac
+ad
 aN
 aR
 aR
@@ -6367,22 +6385,22 @@ ag
 ag
 au
 ag
+ad
 ac
 ac
 ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ac
 ac
 ab
@@ -6587,8 +6605,8 @@ ab
 ab
 ab
 ab
-ab
-ad
+at
+ag
 bK
 ae
 ah
@@ -6624,14 +6642,14 @@ aR
 bB
 aR
 bh
+ad
 ac
 ac
 ac
 ac
 ac
 ac
-ac
-ac
+ad
 ag
 ag
 ag
@@ -6639,7 +6657,7 @@ ag
 ag
 ag
 ag
-ab
+at
 ab
 ab
 ab
@@ -6844,9 +6862,9 @@ ab
 ab
 ab
 ab
-ab
-ad
-aj
+at
+ag
+aO
 af
 af
 ah
@@ -6888,7 +6906,7 @@ ac
 ac
 ac
 ab
-ab
+at
 ag
 al
 al
@@ -6896,7 +6914,7 @@ al
 al
 al
 ag
-ab
+at
 ab
 ab
 ab
@@ -7101,9 +7119,9 @@ aa
 aa
 ab
 ab
-ab
-ad
-aj
+at
+ag
+aO
 af
 af
 af
@@ -7145,7 +7163,7 @@ ab
 ab
 ab
 ab
-ab
+at
 ag
 al
 al
@@ -7153,7 +7171,7 @@ al
 al
 al
 ag
-ab
+at
 ab
 ab
 aa
@@ -7358,9 +7376,9 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
 af
 aW
@@ -7375,14 +7393,14 @@ af
 ak
 ac
 ac
-aO
-ac
-ac
+ad
+ad
+ad
 aj
 ak
 ac
 ac
-ac
+bS
 ac
 ac
 ac
@@ -7396,13 +7414,13 @@ aj
 ak
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+at
+at
+at
+at
+at
+at
+at
 ag
 al
 al
@@ -7410,7 +7428,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -7615,9 +7633,9 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
 af
 af
@@ -7632,9 +7650,9 @@ af
 ak
 ab
 ab
-ab
-ad
-ab
+at
+ag
+at
 aj
 ak
 ab
@@ -7653,7 +7671,7 @@ aj
 ak
 ab
 ab
-ab
+at
 ag
 ag
 ag
@@ -7667,7 +7685,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -7872,9 +7890,9 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
 af
 af
@@ -7889,9 +7907,9 @@ af
 af
 ae
 ae
-ae
-ad
-ae
+bR
+ag
+bR
 af
 ak
 ab
@@ -7910,7 +7928,7 @@ aj
 ak
 ab
 ab
-ab
+at
 ag
 al
 al
@@ -7924,7 +7942,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -8129,26 +8147,26 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
-af
-af
-aP
-ao
-ao
-ao
-ao
-ao
-ao
-ao
-ao
-ao
-ao
-ao
-ao
 av
+ag
+aO
 af
+aR
+aP
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+bT
+aR
 af
 ak
 ab
@@ -8167,7 +8185,7 @@ aj
 ak
 ab
 ab
-ab
+at
 ag
 al
 al
@@ -8181,7 +8199,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -8386,11 +8404,11 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
-ak
+bO
 ag
 ag
 ag
@@ -8424,7 +8442,7 @@ aj
 af
 ae
 ae
-ah
+bV
 ag
 al
 al
@@ -8438,7 +8456,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -8643,11 +8661,11 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
-ak
+bO
 ag
 al
 al
@@ -8662,7 +8680,7 @@ al
 al
 al
 au
-af
+aR
 af
 ak
 ab
@@ -8680,8 +8698,8 @@ ab
 aj
 af
 ao
-ao
-an
+aT
+bh
 au
 al
 al
@@ -8695,8 +8713,8 @@ al
 al
 al
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -8900,28 +8918,28 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
+af
+bO
+ag
+al
+al
+al
+au
+al
+al
+al
+au
+al
+al
+al
+al
+ag
+bU
 af
 ak
-ag
-al
-al
-al
-au
-al
-al
-al
-au
-al
-al
-al
-al
-ag
-bN
-af
-ak
 ab
 ab
 ab
@@ -8936,8 +8954,8 @@ ab
 ab
 aj
 ak
-ab
-ab
+at
+at
 ag
 ag
 au
@@ -8953,8 +8971,8 @@ ag
 ag
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -9157,26 +9175,26 @@ aa
 aa
 aa
 aa
-aa
-ad
-aj
+av
+ag
+aO
 af
-ak
+bO
 ag
 aq
 as
 al
 ag
-ag
-au
-ag
+al
+al
+aZ
 ag
 ag
 ag
 aF
 al
 ag
-aj
+aO
 af
 ak
 ab
@@ -9192,8 +9210,8 @@ ab
 ab
 ab
 aj
-ak
-ab
+bO
+at
 ag
 ag
 bz
@@ -9211,8 +9229,8 @@ al
 bz
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -9414,11 +9432,11 @@ aa
 aa
 aa
 aa
-aa
-ad
+av
+ag
 bu
-af
-an
+aR
+bh
 ag
 ar
 bE
@@ -9433,7 +9451,7 @@ aD
 al
 al
 ag
-aj
+aO
 af
 ak
 ab
@@ -9449,7 +9467,7 @@ ab
 ab
 ab
 aj
-ak
+bO
 ag
 ag
 al
@@ -9469,7 +9487,7 @@ al
 al
 ag
 ag
-aa
+av
 aa
 aa
 aa
@@ -9671,11 +9689,11 @@ aa
 aa
 aa
 aa
-aa
-ad
+av
 ag
-at
-ad
+ag
+bN
+ag
 ag
 ag
 ag
@@ -9690,7 +9708,7 @@ aE
 al
 al
 ag
-aj
+aO
 af
 af
 ae
@@ -9726,7 +9744,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -9928,12 +9946,12 @@ aa
 aa
 aa
 aa
-aa
-aa
+av
+av
 bC
-aa
-aa
-aa
+av
+av
+av
 ag
 bH
 al
@@ -9942,28 +9960,28 @@ al
 al
 aw
 aw
-aZ
+al
 bM
-bj
+al
 al
 ag
-aj
+aO
+aR
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aR
 af
 ao
 ao
 ao
 ao
-ao
-ao
-ao
 af
-af
-ao
-ao
-ao
-ao
-af
-af
+aR
 au
 al
 al
@@ -9983,7 +10001,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -10190,7 +10208,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 bI
 al
@@ -10201,11 +10219,11 @@ ax
 az
 aC
 ag
-aG
+al
 aH
 ag
-aj
-ak
+aO
+bO
 ag
 ag
 ag
@@ -10213,14 +10231,14 @@ ag
 ag
 ag
 ag
-aj
+aO
 ak
 aa
 aa
 aa
 aa
 am
-an
+bh
 ag
 al
 al
@@ -10240,7 +10258,7 @@ al
 al
 al
 ag
-aa
+av
 aa
 aa
 aa
@@ -10447,7 +10465,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 bJ
 al
@@ -10461,8 +10479,8 @@ ag
 ag
 ag
 ag
-aj
-ak
+aO
+bO
 ag
 aI
 as
@@ -10477,7 +10495,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 ag
 al
@@ -10497,7 +10515,7 @@ al
 al
 ag
 ag
-aa
+av
 aa
 aa
 aa
@@ -10704,7 +10722,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 al
 al
@@ -10713,13 +10731,13 @@ al
 al
 bJ
 ag
-ai
-ae
-ae
-ae
-ae
-af
-ak
+bQ
+bR
+bR
+bR
+bR
+aR
+bO
 ag
 aJ
 al
@@ -10727,15 +10745,15 @@ aw
 al
 al
 au
-af
-an
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+aR
+bh
+av
+av
+av
+av
+av
+av
+av
 ag
 ag
 bE
@@ -10753,8 +10771,8 @@ al
 bE
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -10961,7 +10979,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 bJ
 bJ
@@ -10970,13 +10988,13 @@ al
 al
 bJ
 ag
-am
+aN
 ao
 ao
 ao
 ao
 af
-ak
+bO
 ag
 al
 al
@@ -10984,16 +11002,16 @@ aw
 al
 al
 ag
-an
+bh
 ag
 ag
 ag
 ag
 ag
+av
 aa
-aa
-aa
-aa
+av
+av
 ag
 ag
 au
@@ -11009,8 +11027,8 @@ ag
 ag
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -11218,7 +11236,7 @@ aa
 aa
 aa
 aa
-aa
+av
 ag
 ag
 ag
@@ -11227,13 +11245,13 @@ ag
 ag
 ag
 ag
-aa
+av
 aa
 aa
 aa
 aa
 aj
-ak
+bO
 ag
 al
 al
@@ -11247,9 +11265,9 @@ aQ
 bx
 aU
 ag
-aa
-aa
-aa
+av
+av
+av
 ag
 ag
 aF
@@ -11257,16 +11275,16 @@ al
 al
 ag
 ag
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
 aa
 aa
 aa
@@ -11475,22 +11493,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
 aa
 aa
 aa
 aa
 aj
-ak
+bO
 ag
 ag
 ag
@@ -11504,19 +11522,19 @@ al
 al
 aV
 ag
-aa
-aa
+av
+av
 ag
 ag
-bl
+aG
 al
 al
 al
 al
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -11747,7 +11765,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 al
 al
@@ -11761,8 +11779,8 @@ al
 aw
 al
 ag
-aa
-aa
+av
+av
 ag
 bi
 al
@@ -11773,7 +11791,7 @@ al
 bp
 ag
 ag
-aa
+av
 aa
 aa
 aa
@@ -12004,7 +12022,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 aK
 al
@@ -12018,8 +12036,8 @@ al
 al
 al
 ag
-aa
-aa
+av
+av
 ag
 bD
 al
@@ -12030,7 +12048,7 @@ al
 bq
 br
 ag
-aa
+av
 aa
 aa
 aa
@@ -12249,8 +12267,8 @@ aa
 aa
 aa
 aa
-bO
-bO
+aa
+aa
 aa
 aa
 aa
@@ -12261,7 +12279,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 as
 al
@@ -12275,8 +12293,8 @@ al
 al
 aw
 ag
-aa
-aa
+av
+av
 ag
 bk
 al
@@ -12287,7 +12305,7 @@ al
 al
 ag
 ag
-aa
+av
 aa
 aa
 aa
@@ -12518,7 +12536,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 bv
 al
@@ -12532,8 +12550,8 @@ al
 al
 al
 ag
-aa
-aa
+av
+av
 ag
 ag
 as
@@ -12543,8 +12561,8 @@ al
 al
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -12775,7 +12793,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 as
 al
@@ -12789,9 +12807,9 @@ al
 al
 al
 ag
-aa
-aa
-aa
+av
+av
+av
 ag
 ag
 al
@@ -12799,8 +12817,8 @@ al
 al
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -13032,7 +13050,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 aK
 al
@@ -13046,17 +13064,17 @@ aM
 aM
 aM
 aM
+av
 aa
-aa
-aa
-aa
+av
+av
 ag
 ag
 ag
 ag
 ag
-aa
-aa
+av
+av
 aa
 aa
 aa
@@ -13289,7 +13307,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 ag
 ag
 ag
@@ -13303,16 +13321,16 @@ al
 bz
 al
 aM
+av
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+av
+av
+av
+av
+av
+av
+av
 aa
 aa
 aa
@@ -13546,7 +13564,7 @@ aa
 aa
 aa
 aj
-ak
+bO
 aX
 bb
 bw
@@ -13560,7 +13578,7 @@ al
 aS
 as
 aM
-aa
+av
 aa
 aa
 aa
@@ -13817,7 +13835,7 @@ aM
 aM
 aM
 aM
-aa
+av
 aa
 aa
 aa
@@ -14068,13 +14086,13 @@ bc
 be
 bt
 aX
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+av
+av
+av
+av
+av
+av
+av
 aa
 aa
 aa
