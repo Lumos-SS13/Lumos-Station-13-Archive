@@ -569,6 +569,13 @@
 	dir = 1
 	},
 /area/lavaland/surface/outdoors/unexplored)
+"bO" = (
+/turf/open/floor/plating/dirt/dark,
+/area/space)
+"bP" = (
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/wood,
+/area/mine/living_quarters)
 "Wv" = (
 /turf/closed/indestructible/rock,
 /area/lavaland/surface/outdoors/unexplored)
@@ -9417,7 +9424,7 @@ ar
 bE
 al
 ag
-al
+bP
 al
 al
 ay
@@ -12242,8 +12249,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+bO
+bO
 aa
 aa
 aa
