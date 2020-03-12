@@ -361,9 +361,16 @@
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
+"bj" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/rnd/production/protolathe/department,
+/turf/open/floor/wood,
+/area/mine/living_quarters)
 "bk" = (
-/obj/machinery/rnd/production/circuit_imprinter/department/science,
 /obj/item/reagent_containers/glass/beaker/sulphuric,
+/obj/machinery/rnd/production/circuit_imprinter/department,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "bm" = (
@@ -464,13 +471,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/dark,
-/area/mine/living_quarters)
-"bD" = (
-/obj/machinery/rnd/production/protolathe/department/science,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/wood,
 /area/mine/living_quarters)
 "bE" = (
 /obj/machinery/light/small{
@@ -12039,7 +12039,7 @@ ag
 av
 av
 ag
-bD
+bj
 al
 al
 aw
