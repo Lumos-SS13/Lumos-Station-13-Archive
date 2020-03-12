@@ -534,6 +534,41 @@
 /obj/structure/rack,
 /turf/open/floor/wood,
 /area/mine/living_quarters)
+"bK" = (
+/obj/machinery/computer/shuttle/mining,
+/turf/open/indestructible/cobble/corner{
+	icon_state = "cobble_corner";
+	dir = 1
+	},
+/area/mine/living_quarters)
+"bL" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 5;
+	id = "mining_home";
+	name = "mining shuttle bay";
+	roundstart_template = /datum/map_template/shuttle/mining/box;
+	width = 7
+	},
+/turf/open/water,
+/area/lavaland/surface/outdoors/unexplored)
+"bM" = (
+/obj/machinery/computer/bounty,
+/turf/closed/wall/mineral/wood,
+/area/mine/living_quarters)
+"bN" = (
+/obj/structure/noticeboard{
+	desc = "A board for pinning important notices upon. Probably helpful for keeping track of requests.";
+	name = "requests board";
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/indestructible/cobble/side{
+	icon_state = "cobble_side";
+	dir = 1
+	},
+/area/lavaland/surface/outdoors/unexplored)
 "Wv" = (
 /turf/closed/indestructible/rock,
 /area/lavaland/surface/outdoors/unexplored)
@@ -6291,7 +6326,7 @@ ac
 ac
 ac
 ac
-ac
+bL
 ac
 ac
 ac
@@ -6547,7 +6582,7 @@ ab
 ab
 ab
 ad
-ai
+bK
 ae
 ah
 ab
@@ -8877,7 +8912,7 @@ al
 al
 al
 ag
-aj
+bN
 af
 ak
 ab
@@ -9901,7 +9936,7 @@ al
 aw
 aw
 aZ
-ag
+bM
 bj
 al
 ag
