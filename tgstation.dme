@@ -3126,6 +3126,7 @@
 #include "lumos\code\adminloadout.dm"
 #include "lumos\code\cecilyarmor.dm"
 #include "lumos\code\lanternhook.dm"
+#include "lumos\code\hydroponics\avocado.dm"
 #include "lumos\code\languages\buzzwords.dm"
 #include "lumos\code\languages\calcic.dm"
 #include "lumos\code\languages\moffic.dm"
