@@ -266,13 +266,6 @@
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
-"Bh" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "engsm";
-	name = "Radiation Chamber Shutters"
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "BG" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/machinery/light/small{
@@ -387,13 +380,6 @@
 /obj/machinery/power/am_control_unit,
 /turf/open/floor/plating,
 /area/engine/engineering)
-"JC" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "engsm";
-	name = "Radiation Chamber Shutters"
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "JZ" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 4
@@ -427,13 +413,6 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
-"Mn" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/box/red,
-/turf/open/floor/engine,
-/area/engine/engineering)
 "MD" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/stripes/line{
@@ -465,13 +444,6 @@
 "Og" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/engine/engineering)
-"Ox" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/box/red,
-/turf/open/floor/engine,
 /area/engine/engineering)
 "Pg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -592,10 +564,6 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
-"ZF" = (
-/obj/effect/turf_decal/box/red,
-/turf/open/floor/engine,
 /area/engine/engineering)
 "ZK" = (
 /obj/effect/turf_decal/stripes/line{
@@ -922,7 +890,7 @@ LO
 Eu
 Pg
 cP
-JC
+xg
 WI
 rj
 dz
@@ -950,7 +918,7 @@ NS
 xx
 fh
 zW
-JC
+xg
 WI
 rj
 dz
@@ -978,7 +946,7 @@ yo
 me
 aT
 Aw
-JC
+xg
 WI
 rj
 dz
@@ -1061,8 +1029,8 @@ MJ
 wt
 Zz
 Wf
-Ox
-Ox
+nR
+nR
 Zb
 lY
 Og
@@ -1089,8 +1057,8 @@ MJ
 cB
 Bb
 qP
-ZF
-ZF
+SD
+SD
 Yd
 lY
 Og
@@ -1117,8 +1085,8 @@ MJ
 wt
 eJ
 Zx
-Mn
-Mn
+nW
+nW
 WQ
 lY
 Og
@@ -1202,7 +1170,7 @@ fh
 WX
 HQ
 Aw
-JC
+xg
 WI
 rj
 dz
@@ -1230,7 +1198,7 @@ fh
 kh
 fh
 fh
-JC
+xg
 WI
 rj
 dz
@@ -1258,7 +1226,7 @@ fh
 kh
 uG
 cP
-JC
+xg
 WI
 rj
 dz
